@@ -3,16 +3,14 @@ require 'rack-legacy'
 require 'rack-rewrite'
 
 use Rack::Rewrite do
-  rewrite /.*/, lambda { |match, env|
-    if File.exists?(File.join(Dir.getwd, env['PATH_INFO']))
-      env['PATH_INFO']
+  rewrite %r{(.*/$)}, lambda {|match, rack_env|
+    if File.exists?(File.join(Dir.getwd, rack_env['PATH_INFO'], "index.php"))
+      rack_env['PATH_INFO'] + "index.php"
     else
-      env['RACK_REQUEST_URI'] = match[0]
-      'index.php'
+      rack_env['PATH_INFO']
     end
   }
 end
 
 use Rack::Legacy::Php, Dir.getwd
-use Rack::Legacy::Cgi, Dir.getwd
 run Rack::File.new Dir.getwd

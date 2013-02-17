@@ -1,4 +1,2 @@
-config.php
 .htaccess
-data/
-tmp/
+tmp
