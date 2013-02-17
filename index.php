@@ -110,7 +110,7 @@
           </dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Brahim
           </dt>
           <dd>
@@ -124,7 +124,7 @@
           </dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/nelly.gif" alt="Brahim" />
             Nelly
           </dt>
           <dd>
@@ -139,7 +139,7 @@
             ça pour la science et viendra sans son scalpel.</dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Sunny
           </dt>
           <dd>
@@ -153,7 +153,7 @@
             et ses <strong>interventions chirurgicales</strong>.</dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Cécile
           </dt>
           <dd>
@@ -167,7 +167,7 @@
             la cours de récré, pas plus haute que 3 pommes avec
             <strong>un petit regard innocent</strong>… ou abruti ahahh.</dd>
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Hugo
           </dt>
           <dd>
@@ -185,7 +185,7 @@
           </dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Marie
           </dt>
           <dd>
@@ -202,7 +202,7 @@
           </dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             Sébastien
           </dt>
           <dd>
@@ -215,7 +215,7 @@
           </dd>
 
           <dt>
-            <img src="img/faces/brahim.png" alt="Brahim" />
+            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
             David
           </dt>
           <dd>
@@ -232,26 +232,32 @@
         </ul>
       </section>
 
+
       <hr>
 
       <section id="les3arts" class="section">
         <h1>Les 3 arts</h1>
-
-        <figcaption class="map">
-          <a href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
-            <img alt="Carte des 3 arts" src="http://maps.googleapis.com/maps/api/staticmap?size=640x250&amp;scale=2&amp;center=21+rue+des+rigoles,+75020+Paris&amp;zoom=15&amp;sensor=false&amp;markers=color:blue|21%20rue%20des%20rigoles,%2075020%20Paris&amp;style=feature:landscape.man_made|hue:0x0091ff|saturation:39|lightness:-14&amp;style=feature:road.arterial|element:geometry.fill|visibility:on|hue:0x003bff|saturation:-66|lightness:92&amp;style=feature:road.arterial|element:labels.text.stroke|hue:0x0091ff|lightness:43&amp;style=feature:poi.school|hue:0x005eff|saturation:-19|lightness:-26&amp;style=feature:transit.station|hue:0x002bff|saturation:100&amp;style=hue:0x0091ff" />
-          </a>
-          <legend>21 rue des rigoles, 75020 Paris, <abbr title="Métro" class="metro">M</abbr> Jourdain</legend>
-        </figcaption>
+        <p>
+          21 rue des Rigoles, 75020 Paris,
+          <abbr title="Métro" class="metro">M</abbr> Jourdain
+        </p>
       </section>
+    </div>
 
-      <hr>
+    <div class="bigmap">
+      <a href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
+        Carte
+      </a>
+    </div>
 
-      <section class="section photos">
+    <div class="wrapper">
+
+      <p>&nbsp;</p>
+      <!-- <section class="section photos">
         <h1>Du théâtre pas chiant</h1>
         <p>Un cabaret d'improvisation c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous vos enfants et votre mauvaise humeur, on va s'en occuper.</p>
         <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
-      </section>
+      </section> -->
 
     </div>
 
