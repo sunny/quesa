@@ -25,7 +25,7 @@
 
     <div class="wrapper">
 
-      <div class="blocs">
+      <div class="blocs header-blocs">
         <div class="ligne">
           <header class="section site-header case">
             <img src="img/logo.png" alt="Quesapelorio" width="189" height="261" />
@@ -39,7 +39,7 @@
           <section class="section case prochaine-date">
             <hgroup>
               <h1>
-                Notre prochain <strong>Cabaret d'Improvisation</strong>
+                Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp
               </h1>
               <h2>
                 Jeudi 28 février à 21h
@@ -264,7 +264,7 @@
       <p>&nbsp;</p>
       <section class="section photos">
         <h1>Du théâtre pas chiant</h1>
-        <p>Un cabaret d'improvisation c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous vos enfants et votre mauvaise humeur, on va s'en occuper.</p>
+        <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
         <img class="full-width" src="http://quesapelorio.com/wordpress/wp-content/uploads/2012/06/cropped-caucus.jpg" alt="" />
       </section>
