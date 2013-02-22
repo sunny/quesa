@@ -187,11 +187,6 @@ body {
   clear: both;
 }
 
-.face {
-  border: 2px solid white;
-  border-radius: 1ex;
-}
-
 
 
 /* Onglets de faces */
@@ -201,41 +196,65 @@ body {
 
   @include clearfix;
   dt {
-    width: 90px;
+    width: 12%;
     text-align: center;
     cursor: pointer;
     float: left;
     position: relative;
 
-    &:before {
-      content: "";
-      width: 10px;
-      height: 10px;
-      background: white;
-      position: absolute;
-      top: 85px;
-      left: 40px;
-      -webkit-transform: rotate(90deg);
-    }
 
     .face {
+      position: relative;
 
-      display: block;
-      margin-bottom: -20px;
-      -webkit-transition: margin 100ms, opacity 1s, -webkit-filter 1s;
-      z-index: -1;
-      -webkit-filter: grayscale(100%);
-      width: 83px;
-      height: 83px;
+      &:after {
+        top: 100%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
 
-      border: 2px solid white;
-      border-radius: 1ex;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(136, 183, 213, 0);
+        border-top-color: #fff;
+        border-width: 6px;
+        margin-left: -6px;
+        left: 50%;
+      }
+
+      img {
+        display: block;
+        width: 90%;
+        height: auto;
+        border: 2px solid white;
+        border-radius: 1ex;
+        -webkit-transition: -webkit-filter 1s;
+        -webkit-filter: grayscale(100%);
+      }
+      z-index: 1;
     }
-    &.selected,
+
+    .nom {
+      -webkit-transition: margin 200ms;
+      margin-top: -1.3em;
+      opacity: .7;
+      z-index: 2;
+    }
+
     &:hover {
-      .face {
-        margin-bottom: 1em;
+      .nom {
+        margin-top: 1em;
+        opacity: .6;
+      }
+      .face img {
         -webkit-filter: none;
+      }
+    }
+
+    &.selected {
+      .nom {
+        margin-top: 1em;
+        opacity: 1;
       }
     }
   }

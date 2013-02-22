@@ -110,8 +110,8 @@
           </dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Brahim
+            <div class="face"><img src="img/faces/brahim.gif" alt="Improvisateur Brahim" /></div>
+            <div class="nom">Brahim</div>
           </dt>
           <dd>
             L’enfant du soleil, qui parcourt la terre le ciel, véritable
@@ -124,8 +124,8 @@
           </dd>
 
           <dt>
-            <img class="face" src="img/faces/nelly.gif" alt="Brahim" />
-            Nelly
+            <div class="face"><img src="img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
+            <div class="nom">Nelly</div>
           </dt>
           <dd>
             M<sup>elle</sup> <strong>crotte de nez</strong>. Elle les aime dures,
@@ -139,8 +139,8 @@
             ça pour la science et viendra sans son scalpel.</dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Sunny
+            <div class="face"><img src="img/faces/sunny.gif" alt="Improvisateur Sunny" /></div>
+            <div class="nom">Sunny</div>
           </dt>
           <dd>
             Rien de tel qu’un <strong>brin de lumière</strong>,
@@ -153,8 +153,8 @@
             et ses <strong>interventions chirurgicales</strong>.</dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Cécile
+            <div class="face"><img src="img/faces/cecile.gif" alt="Improvisatrice Cécile" /></div>
+            <div class="nom">Cécile</div>
           </dt>
           <dd>
             Ohh méfiez vous de l’eau qui dort, elle peut parfois vous
@@ -167,8 +167,8 @@
             la cours de récré, pas plus haute que 3 pommes avec
             <strong>un petit regard innocent</strong>… ou abruti ahahh.</dd>
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Hugo
+            <div class="face"><img src="img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
+            <div class="nom">Hugo</div>
           </dt>
           <dd>
             Hugo, Jugo, monsieur «&nbsp;<strong>Heyyyyyyyyy</strong>&nbsp;»,
@@ -185,8 +185,8 @@
           </dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Marie
+            <div class="face"><img src="img/faces/marie.gif" alt="Improvisatrice Marie" /></div>
+            <div class="nom">Marie</div>
           </dt>
           <dd>
             Mais qui est cette fille fructidose&nbsp;?
@@ -202,8 +202,8 @@
           </dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            Sébastien
+            <div class="face"><img src="img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
+            <div class="nom">Sébastien</div>
           </dt>
           <dd>
             Un monsieur Quesapelorio Sébastien mais qui pourrait
@@ -215,8 +215,8 @@
           </dd>
 
           <dt>
-            <img class="face" src="img/faces/brahim.gif" alt="Brahim" />
-            David
+            <div class="face"><img src="img/faces/david.gif" alt="Improvisateur David" /></div>
+            <div class="nom">David</div>
           </dt>
           <dd>
             Comment David fait-il pour avoir cette <strong>incroyable présence scénique</strong>,
@@ -253,11 +253,12 @@
     <div class="wrapper">
 
       <p>&nbsp;</p>
-      <!-- <section class="section photos">
+      <section class="section photos">
         <h1>Du théâtre pas chiant</h1>
         <p>Un cabaret d'improvisation c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous vos enfants et votre mauvaise humeur, on va s'en occuper.</p>
-        <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
-      </section> -->
+        <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
+        <img class="full-width" src="http://quesapelorio.com/wordpress/wp-content/uploads/2012/06/cropped-caucus.jpg" />
+      </section>
 
     </div>
 
@@ -269,7 +270,8 @@
     <script src="js/main.js"></script>
 
     <!-- facebook -->
-<!--     <div id="fb-root"></div>
+    <?php if (!isset($_GET['no-social'])) : ?>
+    <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
@@ -277,7 +279,7 @@
       js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=151233974919083";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
- -->
+
     <!-- twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
@@ -288,6 +290,7 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+    <?php endif; ?>
   </body>
 </html>
 

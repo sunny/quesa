@@ -189,70 +189,87 @@ body {
   clear: both;
 }
 
-/* line 190, main.scss */
-.face {
-  border: 2px solid white;
-  border-radius: 1ex;
-}
-
 /* Onglets de faces */
-/* line 199, main.scss */
+/* line 194, main.scss */
 .js-face-tabs {
   overflow: hidden;
   *zoom: 1;
   position: relative;
   min-height: 220px;
 }
-/* line 203, main.scss */
+/* line 198, main.scss */
 .js-face-tabs dt {
-  width: 90px;
+  width: 12%;
   text-align: center;
   cursor: pointer;
   float: left;
   position: relative;
 }
-/* line 210, main.scss */
-.js-face-tabs dt:before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: white;
-  position: absolute;
-  top: 85px;
-  left: 40px;
-  -webkit-transform: rotate(90deg);
-}
-/* line 221, main.scss */
+/* line 206, main.scss */
 .js-face-tabs dt .face {
+  position: relative;
+  z-index: 1;
+}
+/* line 209, main.scss */
+.js-face-tabs dt .face:after {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #fff;
+  border-width: 6px;
+  margin-left: -6px;
+  left: 50%;
+}
+/* line 225, main.scss */
+.js-face-tabs dt .face img {
   display: block;
-  margin-bottom: -20px;
-  -webkit-transition: margin 100ms, opacity 1s, -webkit-filter 1s;
-  z-index: -1;
-  -webkit-filter: grayscale(100%);
-  width: 83px;
-  height: 83px;
+  width: 90%;
+  height: auto;
   border: 2px solid white;
   border-radius: 1ex;
+  -webkit-transition: -webkit-filter 1s;
+  -webkit-filter: grayscale(100%);
 }
-/* line 236, main.scss */
-.js-face-tabs dt.selected .face, .js-face-tabs dt:hover .face {
-  margin-bottom: 1em;
+/* line 237, main.scss */
+.js-face-tabs dt .nom {
+  -webkit-transition: margin 200ms;
+  margin-top: -1.3em;
+  opacity: .7;
+  z-index: 2;
+}
+/* line 245, main.scss */
+.js-face-tabs dt:hover .nom {
+  margin-top: 1em;
+  opacity: .6;
+}
+/* line 249, main.scss */
+.js-face-tabs dt:hover .face img {
   -webkit-filter: none;
 }
-/* line 246, main.scss */
+/* line 255, main.scss */
+.js-face-tabs dt.selected .nom {
+  margin-top: 1em;
+  opacity: 1;
+}
+/* line 265, main.scss */
 .js-face-tabs dd {
   margin: 1em 0 0 0;
   top: 120px;
   position: absolute;
   opacity: 0;
 }
-/* line 251, main.scss */
+/* line 270, main.scss */
 .js-face-tabs dd.selected {
   opacity: 1;
 }
 
 /* Carte */
-/* line 259, main.scss */
+/* line 278, main.scss */
 .bigmap a {
   opacity: .8;
   color: rgba(255, 255, 255, 0);
@@ -266,26 +283,26 @@ body {
   display: block;
 }
 @media (min-width: 550px) {
-  /* line 259, main.scss */
+  /* line 278, main.scss */
   .bigmap a {
     background-image: url(http://maps.googleapis.com/maps/api/staticmap?size=650x250&scale=2&center=21+rue+des+rigoles,+75020+Paris&zoom=15&sensor=false&markers=color:blue|21%20rue%20des%20rigoles,%2075020%20Paris&style=feature:landscape.man_made|hue:0x0091ff|saturation:39|lightness:-14&style=feature:road.arterial|element:geometry.fill|visibility:on|hue:0x003bff|saturation:-66|lightness:92&style=feature:road.arterial|element:labels.text.stroke|hue:0x0091ff|lightness:43&style=feature:poi.school|hue:0x005eff|saturation:-19|lightness:-26&style=feature:transit.station|hue:0x002bff|saturation:100&style=hue:0x0091ff);
   }
 }
 @media (min-width: 900px) {
-  /* line 259, main.scss */
+  /* line 278, main.scss */
   .bigmap a {
     height: 400px;
   }
 }
 @media (min-width: 950px) {
-  /* line 259, main.scss */
+  /* line 278, main.scss */
   .bigmap a {
     height: 490px;
   }
 }
 
 /* Chrome Frame */
-/* line 285, main.scss */
+/* line 304, main.scss */
 .chromeframe {
   margin: 0.2em 0;
   padding: 0.2em 0;
