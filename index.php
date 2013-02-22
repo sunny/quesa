@@ -12,6 +12,7 @@
 
     <link rel="icon" href="img/favicon2.png">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=ABeeZee" />
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,7 +31,7 @@
           <header class="section site-header case">
             <img src="img/logo.png" alt="Quesapelorio" width="189" height="261" />
 
-            <h1>
+            <h1 class="logo">
               Quesapelorio
               <span class="goutte"></span>
             </h1>
@@ -38,8 +39,8 @@
 
           <section class="section case prochaine-date">
             <hgroup>
-              <h1>
-                Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp
+              <h1 class="section-title">
+                Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp;:
               </h1>
               <h2>
                 Jeudi 28 février à 21h
@@ -49,10 +50,10 @@
 
             <p class="lieu">
               <a href="#les3arts">
-                21 rue des rigoles, 75020 Paris,
-                <abbr class="metro" title="Métro">M</abbr>
-                Jourdain
+                21 rue des rigoles, 75020 Paris
               </a>
+              <abbr class="metro" title="Métro">M</abbr>
+              Jourdain
             </p>
 
             <p>
@@ -62,7 +63,7 @@
               <strong>improviseront devant vous</strong>
               sur les thèmes que <strong>vous</strong> allez écrire.
             </p>
-            <p><strong>Gratuit</strong> avec conso.</p>
+            <p><strong>Entrée libre</strong>, avec conso.</p>
           </section>
 
         </div>
@@ -71,7 +72,7 @@
       <hr>
 
       <section class="section case social">
-        <h1>Aimez-nous</h1>
+        <h1 class="section-title">Aimez-nous</h1>
 
         <div class="blocs">
           <div class="ligne">
@@ -87,9 +88,9 @@
       <hr>
 
       <section id="nous" class="section nous">
-        <h1>Quézakeau ?</h1>
+        <h1 class="section-title">Quézakeau ?</h1>
         <p>
-          <strong>Quesapelorio</strong> est une <strong>troupe d’improvisation théâtrale</strong>
+          <strong class="quesapelorio">Quesapelorio</strong> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
           festifs, explosifs et survoltés
           tous les <strong>4<sup>èmes</sup> jeudis</strong> de chaque mois.
@@ -100,13 +101,17 @@
             Quesapelorio
           </dt>
           <dd class="default">
-            La légende raconte qu’il existait un homme du nom de <strong>Hugo</strong>
-            qui, un soir de <strong>terrible orage</strong>,
-            mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
-            et à l’esprit <strong>lointain</strong>.
-            Il nomma ses enfants <strong>Quesapelorio</strong>.
-            Ces derniers, pour lui faire plaisir, montèrent une
-            troupe <strong>d’improvisation théâtrale</strong>.
+            <p>
+              La légende raconte qu’il existait un homme du nom de <strong>Hugo</strong>
+              qui, un soir de <strong>terrible orage</strong>,
+              mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
+              et à l’esprit <strong>lointain</strong>.
+            </p>
+            <p>
+              Il nomma ses enfants <strong class="quesapelorio">Quesapelorio</strong>.
+              Ces derniers, pour lui faire plaisir, montèrent une
+              troupe <strong>d’improvisation théâtrale</strong>.
+            </p>
           </dd>
 
           <dt>
@@ -114,13 +119,15 @@
             <div class="nom">Brahim</div>
           </dt>
           <dd>
-            L’enfant du soleil, qui parcourt la terre le ciel, véritable
-            <strong>jukebox</strong> musical et imitateur de dialogue de film… « Virginie…
-            J’me suis cassé le coccyx ». Il peut <strong>chauffer une salle</strong> en 30 secondes,
-            lancer une <strong>chorégraphie</strong> de groupe sur Rasputin (Boney M)
-            en 15 secondes, vous mettre une chanson dans la tête en
-            5 secondes («&nbsp;<strong>Toii… ma copiiiiineeeuu</strong>&nbsp;»)
-            et <strong>vous faire rire</strong> instantanément&nbsp;!
+            <p>
+              L’enfant du soleil, qui parcourt la terre le ciel, véritable
+              <strong>jukebox</strong> musical et imitateur de dialogue de film… «&nbsp;Virginie…
+              J’me suis cassé le coccyx&nbsp;». Il peut <strong>chauffer une salle</strong> en 30 secondes,
+              lancer une <strong>chorégraphie</strong> de groupe sur Rasputin (Boney M)
+              en 15 secondes, vous mettre une chanson dans la tête en
+              5 secondes («&nbsp;<strong>Toii… ma copiiiiineeeuu</strong>&nbsp;»)
+              et <strong>vous faire rire</strong> instantanément&nbsp;!
+            </p>
           </dd>
 
           <dt>
@@ -245,7 +252,7 @@
       <hr>
 
       <section id="les3arts" class="section">
-        <h1>Les 3 arts</h1>
+        <h1 class="section-title">Les 3 arts</h1>
         <p>
           21 rue des Rigoles, 75020 Paris,
           <abbr title="Métro" class="metro">M</abbr> Jourdain
