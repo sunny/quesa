@@ -124,35 +124,6 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
-            <div class="nom">Nelly</div>
-          </dt>
-          <dd>
-            M<sup>elle</sup> <strong>crotte de nez</strong>. Elle les aime dures,
-            elle les aime tendres… on parle <strong>des impros</strong> bien évidemment ;)
-            Son tempérament explosif peut vous faire… <strong>exploser de rire</strong>
-            ou bien vous <strong>terrifier</strong>
-            (elle s’énerve super bien pour de faux… Mattias peut confirmer).
-            Ses hobbies sont simples… <strong>découper des bras et des jambes</strong>
-            d’humains. C’est <strong>comme du poulet</strong> parait-il.
-            Mais ne vous inquiétez pas, cette douce demoiselle fait
-            ça pour la science et viendra sans son scalpel.</dd>
-
-          <dt>
-            <div class="face"><img src="img/faces/sunny.gif" alt="Improvisateur Sunny" /></div>
-            <div class="nom">Sunny</div>
-          </dt>
-          <dd>
-            Rien de tel qu’un <strong>brin de lumière</strong>,
-            une éclaircie qui surgit… furtivement pour déposer son rayon et
-            <strong>illuminer votre soirée</strong>&nbsp;!
-            Cet homme a toujours le bon mot, la <strong>pirouette</strong> qui le fait
-            retomber, tel un chat, sur ses pattes.
-            Après avoir été fait Cheveulier sur <strong>une impro capillaire</strong>,
-            il continue ses sérénades avec son style bien à lui
-            et ses <strong>interventions chirurgicales</strong>.</dd>
-
-          <dt>
             <div class="face"><img src="img/faces/cecile.gif" alt="Improvisatrice Cécile" /></div>
             <div class="nom">Cécile</div>
           </dt>
@@ -165,7 +136,26 @@
             de 15 tonnes à se renifler les dessous de bras dans le salon
             devant un match de foot, elle est perdue au milieu de
             la cours de récré, pas plus haute que 3 pommes avec
-            <strong>un petit regard innocent</strong>… ou abruti ahahh.</dd>
+            <strong>un petit regard innocent</strong>… ou abruti ahahh.
+          </dd>
+
+          <dt>
+            <div class="face"><img src="img/faces/david.gif" alt="Improvisateur David" /></div>
+            <div class="nom">David</div>
+          </dt>
+          <dd>
+            Comment David fait-il pour avoir cette <strong>incroyable présence scénique</strong>,
+            pour avoir des personnages bien ancrés et des <strong>dialogues pointus</strong>
+            qui atteignent toujours leurs cibles&nbsp;?
+            Et bien David est <strong>triple champion de France</strong> de fléchettes magnétiques
+            (et vice champion d’Aquitaine de fléchettes/échec)
+            et un jour il a décidé de passer du lancer de fléchettes
+            <strong>au lancer de mots</strong>.
+            Mais il a gardé cette rigueur, cette énergie
+            et cette préparation de <strong>sportif de haut niveau</strong>
+            qui font de lui un chirurgien de l’impro.
+          </dd>
+
           <dt>
             <div class="face"><img src="img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
             <div class="nom">Hugo</div>
@@ -185,6 +175,22 @@
           </dd>
 
           <dt>
+            <div class="face"><img src="img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
+            <div class="nom">Nelly</div>
+          </dt>
+          <dd>
+            M<sup>elle</sup> <strong>crotte de nez</strong>. Elle les aime dures,
+            elle les aime tendres… on parle <strong>des impros</strong> bien évidemment ;)
+            Son tempérament explosif peut vous faire… <strong>exploser de rire</strong>
+            ou bien vous <strong>terrifier</strong>
+            (elle s’énerve super bien pour de faux… Mattias peut confirmer).
+            Ses hobbies sont simples… <strong>découper des bras et des jambes</strong>
+            d’humains. C’est <strong>comme du poulet</strong> parait-il.
+            Mais ne vous inquiétez pas, cette douce demoiselle fait
+            ça pour la science et viendra sans son scalpel.
+          </dd>
+
+          <dt>
             <div class="face"><img src="img/faces/marie.gif" alt="Improvisatrice Marie" /></div>
             <div class="nom">Marie</div>
           </dt>
@@ -201,6 +207,8 @@
             (euh… je vais arrêter les rimes je crois).
           </dd>
 
+
+
           <dt>
             <div class="face"><img src="img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
             <div class="nom">Sébastien</div>
@@ -214,21 +222,22 @@
             (tout nu&nbsp;: faux voir avec lui…) <strong>à votre prochain Cabaret</strong>&nbsp;!
           </dd>
 
+
           <dt>
-            <div class="face"><img src="img/faces/david.gif" alt="Improvisateur David" /></div>
-            <div class="nom">David</div>
+            <div class="face"><img src="img/faces/sunny.gif" alt="Improvisateur Sunny" /></div>
+            <div class="nom">Sunny</div>
           </dt>
           <dd>
-            Comment David fait-il pour avoir cette <strong>incroyable présence scénique</strong>,
-            pour avoir des personnages bien ancrés et des <strong>dialogues pointus</strong>
-            qui atteignent toujours leurs cibles&nbsp;?
-            Et bien David est <strong>triple champion de France</strong> de fléchettes magnétiques
-            (et vice champion d’Aquitaine de fléchettes/échec)
-            et un jour il a décidé de passer du lancer de fléchettes
-            <strong>au lancer de mots</strong>.
-            Mais il a gardé cette rigueur, cette énergie
-            et cette préparation de <strong>sportif de haut niveau</strong>
-            qui font de lui un chirurgien de l’impro.</dd>
+            Rien de tel qu’un <strong>brin de lumière</strong>,
+            une éclaircie qui surgit… furtivement pour déposer son rayon et
+            <strong>illuminer votre soirée</strong>&nbsp;!
+            Cet homme a toujours le bon mot, la <strong>pirouette</strong> qui le fait
+            retomber, tel un chat, sur ses pattes.
+            Après avoir été fait Cheveulier sur <strong>une impro capillaire</strong>,
+            il continue ses sérénades avec son style bien à lui
+            et ses <strong>interventions chirurgicales</strong>.
+          </dd>
+
         </ul>
       </section>
 
@@ -257,7 +266,7 @@
         <h1>Du théâtre pas chiant</h1>
         <p>Un cabaret d'improvisation c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous vos enfants et votre mauvaise humeur, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
-        <img class="full-width" src="http://quesapelorio.com/wordpress/wp-content/uploads/2012/06/cropped-caucus.jpg" />
+        <img class="full-width" src="http://quesapelorio.com/wordpress/wp-content/uploads/2012/06/cropped-caucus.jpg" alt="" />
       </section>
 
     </div>
@@ -268,6 +277,7 @@
 
     <!-- script -->
     <script src="js/main.js"></script>
+    <script src="js/bubbles.js"></script>
 
     <!-- facebook -->
     <?php if (!isset($_GET['no-social'])) : ?>

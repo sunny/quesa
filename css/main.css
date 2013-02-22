@@ -301,8 +301,25 @@ body {
   }
 }
 
+/* Images */
+/* line 302, main.scss */
+.full-width {
+  width: 100%;
+}
+
+/* Bulles magiques */
+/* line 307, main.scss */
+.js-bulle {
+  font-family: Meander, cursive;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Chrome Frame */
-/* line 304, main.scss */
+/* line 317, main.scss */
 .chromeframe {
   margin: 0.2em 0;
   padding: 0.2em 0;

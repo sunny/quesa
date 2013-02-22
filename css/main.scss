@@ -298,7 +298,20 @@ body {
   display: block;
 }
 
+/* Images */
+.full-width {
+  width: 100%;
+}
 
+/* Bulles magiques */
+.js-bulle {
+  font-family: Meander, cursive;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  pointer-events: none;
+  z-index: 0;
+}
 /* Chrome Frame */
 
 .chromeframe {
