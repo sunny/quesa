@@ -1,2 +1,4 @@
 .htaccess
 tmp
+.sass-cache
+.DS_Store
