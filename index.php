@@ -76,15 +76,21 @@
 
         <div class="blocs">
           <div class="ligne">
-            <div class="case fb-like" data-href="https://www.facebook.com/Quesapelorio" data-send="false" data-width="300" data-show-faces="true" data-font="tahoma"></div>
+            <div class="case">
+              <h2>Likez-nous</h2>
+              <div class="fb-like" data-href="https://www.facebook.com/Quesapelorio" data-send="false" data-width="300" data-show-faces="true" data-font="tahoma"></div>
+            </div>
             <div class="case twitter">
+              <h2>Retweetez-nous</h2>
               <a class="twitter-follow-button" href="https://twitter.com/quesapelorio" data-show-count="false" data-lang="fr" data-size="large">Suivre @quesapelorio</a>
             </div>
             <div class="case newsletter">
-              <a href="http://eepurl.com/v6G19">S'inscrire à notre newsletter</a>
+              <h2>Lisez-nous</h2>
+              <a href="http://eepurl.com/v6G19">Newsletter Quesapelorio</a>
             </div>
-            <div class="case">
-              <div class="email"><a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a></div>
+            <div class="case email">
+              <h2>Écrivez-nous</h2>
+              <a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a>
             </div>
           </div>
         </div>

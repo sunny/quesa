@@ -178,11 +178,6 @@ p {
 
 }
 
-/* Newsletter */
-
-.newsletter {
-  text-align: center;
-}
 
 /* Social */
 
@@ -191,9 +186,16 @@ p {
     border-radius: 1ex;
     background: white;
     padding: 1.5ex 1ex;
+    text-shadow: none;
+    color: #888;
+
+    h2 {
+      margin: 0 0 .1em;
+      font-size: 1em;
+      font-weight: normal;
+    }
 
     a {
-      text-shadow: none;
       color: #028dab;
       font-size: 0.9em;
       text-decoration: underline;
