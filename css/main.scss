@@ -15,10 +15,13 @@
 }
 
 body {
-  font-family: ABeeZee, Tahoma, Helvetica, Arial, sans-serif;
+  font-family: Chivo, Tahoma, Helvetica, Arial, sans-serif;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, .6);
   padding: 0;
   margin: 0;
+}
+strong {
+  font-weight: normal;
 }
 
 
@@ -47,10 +50,6 @@ a {
   margin: 0 0 .5em 0;
 }
 
-
-legend {
-  margin-top: 1em;
-}
 
 hr {
   border: 0;
@@ -179,6 +178,12 @@ p {
 
 }
 
+/* Newsletter */
+
+.newsletter {
+  text-align: center;
+}
+
 /* Social */
 
 .social {
@@ -187,20 +192,18 @@ p {
     background: white;
     padding: 1.5ex 1ex;
 
-    .fb-like {
-      min-width: 500px;
-    }
-
-    .email {
-      margin-top: 1em;
+    a {
       text-shadow: none;
+      color: #028dab;
+      font-size: 0.9em;
+      text-decoration: underline;
 
-      a {
-        color: #028dab;
-        font-size: 0.9em;
-        text-decoration: underline;
-      }
     }
+
+    .fb-like {
+      min-width: 300px;
+    }
+
 
   }
 }
@@ -334,12 +337,18 @@ p {
   pointer-events: none;
   z-index: 0;
 }
+
 /* Chrome Frame */
 
 .chromeframe {
-  margin: 0.2em 0;
-  padding: 0.2em 0;
+  margin: 0 0 1em 0;
+  padding: .5em 0;
   background: #ccc;
   color: #000;
+  text-shadow: none;
+  text-align: center;
+  a {
+    color: white;
+  }
 }
 

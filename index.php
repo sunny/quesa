@@ -12,7 +12,7 @@
 
     <link rel="icon" href="img/favicon2.png">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=ABeeZee" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chivo:400,900" />
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,7 +21,7 @@
   </head>
   <body>
     <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+      <p class="chromeframe">Vous utilisez un <strong>vieux</strong> navigateur. La honte. Merci <a href="http://browsehappy.com/">de mettre à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">d'activer Google Chrome Frame</a> avant que quelqu'un ne vous voie faire.</p>
     <![endif]-->
 
     <div class="wrapper">
@@ -76,9 +76,14 @@
 
         <div class="blocs">
           <div class="ligne">
-            <div class="case fb-like" data-href="https://www.facebook.com/Quesapelorio" data-send="false" data-width="400" data-show-faces="true" data-font="tahoma"></div>
+            <div class="case fb-like" data-href="https://www.facebook.com/Quesapelorio" data-send="false" data-width="300" data-show-faces="true" data-font="tahoma"></div>
+            <div class="case twitter">
+              <a class="twitter-follow-button" href="https://twitter.com/quesapelorio" data-show-count="false" data-lang="fr" data-size="large">Suivre @quesapelorio</a>
+            </div>
+            <div class="case newsletter">
+              <a href="http://eepurl.com/v6G19">S'inscrire à notre newsletter</a>
+            </div>
             <div class="case">
-              <div class="twitter"><a class="twitter-follow-button" href="https://twitter.com/quesapelorio" data-show-count="false" data-lang="fr" data-size="large">Suivre @quesapelorio</a></div>
               <div class="email"><a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a></div>
             </div>
           </div>
