@@ -1,4 +1,5 @@
 @import "compass";
+@import "normalize";
 @import "fonts";
 
 /* Styles génériques */
@@ -69,7 +70,6 @@ abbr.metro {
   padding: .2ex .5ex;
   font-weight: normal;
   text-decoration: none;
-  font-weight: bold;
   line-height: 1.2;
 }
 
@@ -255,8 +255,7 @@ p {
         height: auto;
         border: 2px solid white;
         border-radius: 1ex;
-        -webkit-transition: -webkit-filter 1s;
-        -webkit-filter: grayscale(100%);
+        @extend .greyscale;
       }
     }
 
@@ -272,7 +271,7 @@ p {
         margin-top: .5em;
         opacity: .6;
       }
-      .face img {
+      .face .greyscale {
         -webkit-filter: none;
       }
     }
@@ -328,6 +327,13 @@ p {
 /* Images */
 .full-width {
   width: 100%;
+}
+.greyscale {
+  -webkit-transition: -webkit-filter 1s;
+  -webkit-filter: grayscale(100%);
+}
+.greyscale:hover {
+  -webkit-filter: none;
 }
 
 /* Bulles magiques */

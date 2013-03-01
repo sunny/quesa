@@ -38,12 +38,12 @@
           </header>
 
           <section class="section case prochaine-date">
-            <hgroup>
-              <h1 class="section-title">
+            <hgroup class="section-title">
+              <h1>
                 Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp;:
               </h1>
               <h2>
-                Jeudi 28 février à 21h
+                Jeudi 28 mars à 21h
                 <strong>au 3 arts</strong>
               </h2>
             </hgroup>
@@ -99,7 +99,7 @@
       <hr>
 
       <section id="nous" class="section nous">
-        <h1 class="section-title">Quézakeau ?</h1>
+        <h1 class="section-title">Quézak-eau&nbsp;?</h1>
         <p>
           <strong class="quesapelorio">Quesapelorio</strong> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
@@ -256,7 +256,7 @@
             et ses <strong>interventions chirurgicales</strong>.
           </dd>
 
-        </ul>
+        </dl>
       </section>
 
 
@@ -272,7 +272,7 @@
     </div>
 
     <div class="bigmap">
-      <a href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
+      <a class="greyscale" href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
         Carte
       </a>
     </div>
@@ -284,7 +284,7 @@
         <h1>Du théâtre pas chiant</h1>
         <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
-        <img class="full-width" src="img/photos/caucus.jpg" alt="" />
+        <img class="full-width greyscale" src="img/photos/caucus.jpg" alt="" />
       </section>
 
     </div>
