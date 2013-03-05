@@ -40,6 +40,33 @@
           <section class="section case prochaine-date">
             <hgroup class="section-title">
               <h1>
+                Notre prochaine date&nbsp;:
+              </h1>
+              <h2>Dégustation d'impro avec les Plaisirs d'Offrir</h2>
+              <h3>
+                Mercredi 6 mars à 20h
+                aux Combustibles
+              </h3>
+            </hgroup>
+
+            <p class="lieu">
+              14 rue Abel - 75012 Paris
+              <abbr class="metro" title="Métro">M</abbr>
+              Gare de Lyon
+            </p>
+
+            <p>
+              La troupe des <a href="http://www.plaisirdoffrir.net/">Plaisirs d'Offrir</a>
+              nous invitent et <em>vous</em> invitent à une dégustation d'impro en 4&times;4.
+              Sans caucus, en une seconde, le thème que vous aurez imaginé prend vie sur scène&nbsp;!
+            </p>
+          </section>
+
+<?php
+/*
+          <section class="section case prochaine-date">
+            <hgroup class="section-title">
+              <h1>
                 Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp;:
               </h1>
               <h2>
@@ -65,6 +92,8 @@
             </p>
             <p><strong>Entrée libre</strong>, avec conso.</p>
           </section>
+*/
+?>
 
         </div>
       </div>
@@ -281,7 +310,7 @@
 
       <p>&nbsp;</p>
       <section class="section photos">
-        <h1>Du théâtre pas chiant</h1>
+        <h1 class="section-title">Du théâtre pas chiant</h1>
         <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
         <img class="full-width greyscale" src="img/photos/caucus.jpg" alt="" />
