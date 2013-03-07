@@ -37,33 +37,7 @@
             </h1>
           </header>
 
-          <section class="section case prochaine-date">
-            <hgroup class="section-title">
-              <h1>
-                Notre prochaine date&nbsp;:
-              </h1>
-              <h2>Dégustation d'impro avec les Plaisirs d'Offrir</h2>
-              <h3>
-                Mercredi 6 mars à 20h
-                aux Combustibles
-              </h3>
-            </hgroup>
 
-            <p class="lieu">
-              14 rue Abel - 75012 Paris
-              <abbr class="metro" title="Métro">M</abbr>
-              Gare de Lyon
-            </p>
-
-            <p>
-              La troupe des <a href="http://www.plaisirdoffrir.net/">Plaisirs d'Offrir</a>
-              nous invitent et <em>vous</em> invitent à une dégustation d'impro en 4&times;4.
-              Sans caucus, en une seconde, le thème que vous aurez imaginé prend vie sur scène&nbsp;!
-            </p>
-          </section>
-
-<?php
-/*
           <section class="section case prochaine-date">
             <hgroup class="section-title">
               <h1>
@@ -92,8 +66,7 @@
             </p>
             <p><strong>Entrée libre</strong>, avec conso.</p>
           </section>
-*/
-?>
+
 
         </div>
       </div>
