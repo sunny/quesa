@@ -6,6 +6,7 @@ end
 
 task :js do
   sh 'coffee --compile assets/js'
+  # sh "r.js -o assets/js/app.build.js"
 end
 
 task :deploy do
