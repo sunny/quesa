@@ -1,0 +1,15 @@
+@mixin selection {
+  $prefixes: ("-webkit-","-moz-", "-o-", "");
+  @each $prefix in $prefixes {
+    ::#{$prefix}selection {
+      @content;
+    }
+  }
+}
+
+@mixin transition-filter($args...) {
+  $prefixes: ("-webkit-","-moz-", "-o-", "");
+  @each $prefix in $prefixes {
+    #{$prefix}transition: #{$prefix}filter $args;
+  }
+}

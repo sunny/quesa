@@ -1,0 +1,357 @@
+/* Styles génériques */
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+}
+
+body {
+  font-family: Chivo, Tahoma, Helvetica, Arial, sans-serif;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, .6);
+  padding: 0;
+  margin: 0;
+}
+strong {
+  font-weight: normal;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.meander {
+  font-family: Meander, cursive;
+  font-weight: normal;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, .9);
+}
+
+.quesapelorio {
+  @extend .meander;
+  font-size: 1.2em;
+}
+
+.logo {
+  @extend .meander;
+}
+.section-title {
+  @extend .meander;
+  margin: 0 0 .5em 0;
+}
+
+
+hr {
+  border: 0;
+  border-bottom: 2px dotted white;
+  opacity: .3;
+  margin: 1em 0;
+}
+
+
+
+/* Classes magiqes */
+
+abbr.metro {
+  border-radius: 3em;
+  font-size: .8em;
+  border: 2px solid;
+  padding: .2ex .5ex;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+
+/* Placement */
+
+.blocs {
+  display: table;
+  width: 100%;
+
+  .ligne {
+    display: table-row;
+
+    .case {
+      display: table-cell;
+      vertical-align: top;
+      padding: 1em;
+      @media (max-width: 600px) {
+        display: block;
+        padding: 0;
+        margin: 1em;
+      }
+    }
+  }
+}
+
+/* Layout */
+
+body {
+  background: #12729d url(../img/fond.jpg);
+  color: white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 0 10px;
+}
+
+p {
+  margin: .5em 0;
+}
+
+
+/* Header */
+
+.site-header {
+  text-align: center;
+  width: 325px;
+
+  h1 {
+    font-size: 3.5em;
+    line-height: 1;
+    padding: 0 0 1ex 0;
+    margin: 0;
+    text-transform: lowercase;
+  }
+}
+
+.goutte {
+  background: inline-image(../img/goutte.png) no-repeat bottom;
+  width: 12px;
+  height: 29px;
+  margin-left: -10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* Sections */
+
+.section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* Prochaine date */
+
+.prochaine-date {
+  h1 {
+    margin-top: 2em;
+    font-weight: normal;
+    font-size: 1.5em;
+
+    strong {
+      font-size: 1.2em;
+    }
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+
+    strong {
+      font-size: 1.2em;
+    }
+  }
+
+  .lieu {
+    margin-top: 0;
+
+    a {
+      text-decoration: none;
+      margin-right: 1ex;
+    }
+  }
+
+}
+
+
+/* Social */
+
+.social {
+   .blocs {
+    border-radius: 1ex;
+    background: white;
+    padding: 1.5ex 1ex;
+    text-shadow: none;
+    color: #888;
+
+    h2 {
+      margin: 0 0 .1em;
+      font-size: 1em;
+      font-weight: normal;
+    }
+
+    a {
+      color: #028dab;
+      font-size: 0.9em;
+      text-decoration: underline;
+
+    }
+
+    .fb-like {
+      min-width: 300px;
+    }
+
+
+  }
+}
+/* Nous */
+
+.nous {
+  clear: both;
+}
+
+
+
+/* Onglets de faces */
+
+.js-face-tabs {
+
+  dt {
+    @extend .meander;
+    width: 12.2%;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    position: relative;
+
+    .face {
+      position: relative;
+      z-index: 1;
+
+      // Flèche du bas
+      &:after {
+        border: 6px solid transparent;
+        border-color: rgba(136, 183, 213, 0);
+        border-top-color: #fff;
+
+        margin-left: -6px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        pointer-events: none;
+      }
+
+      img {
+        display: block;
+        width: 90%;
+        height: auto;
+        border: 2px solid white;
+        border-radius: 1ex;
+        @extend .greyscale;
+      }
+    }
+
+    .nom {
+      -webkit-transition: margin 200ms;
+      margin-top: -1.7em;
+      opacity: .7;
+      z-index: 2;
+    }
+
+    &:hover {
+      .nom {
+        margin-top: .5em;
+        opacity: .6;
+      }
+      .face .greyscale {
+        -webkit-filter: none;
+      }
+    }
+
+    &.selected {
+      .nom {
+        margin-top: .5em;
+        opacity: 1;
+      }
+    }
+  }
+
+  position: relative;
+  min-height: 220px;
+
+  dd {
+    margin: 1.5em 0 0 0;
+    top: 120px;
+    position: absolute;
+    opacity: 0;
+    line-height: 1.2;
+    &.selected {
+      opacity: 1;
+    }
+  }
+}
+
+/* Carte */
+
+.bigmap a {
+  opacity: .8;
+  color: rgba(255, 255, 255, 0); // Cache le texte
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // Basse def et haute def (scale=1 et scale=2)
+  background-image: url(http://maps.googleapis.com/maps/api/staticmap?size=650x250&scale=1&center=21+rue+des+rigoles,+75020+Paris&zoom=15&sensor=false&markers=color:blue|21%20rue%20des%20rigoles,%2075020%20Paris&style=feature:landscape.man_made|hue:0x0091ff|saturation:39|lightness:-14&style=feature:road.arterial|element:geometry.fill|visibility:on|hue:0x003bff|saturation:-66|lightness:92&style=feature:road.arterial|element:labels.text.stroke|hue:0x0091ff|lightness:43&style=feature:poi.school|hue:0x005eff|saturation:-19|lightness:-26&style=feature:transit.station|hue:0x002bff|saturation:100&style=hue:0x0091ff);
+  @media (min-width: 550px) {
+    background-image: url(http://maps.googleapis.com/maps/api/staticmap?size=650x250&scale=2&center=21+rue+des+rigoles,+75020+Paris&zoom=15&sensor=false&markers=color:blue|21%20rue%20des%20rigoles,%2075020%20Paris&style=feature:landscape.man_made|hue:0x0091ff|saturation:39|lightness:-14&style=feature:road.arterial|element:geometry.fill|visibility:on|hue:0x003bff|saturation:-66|lightness:92&style=feature:road.arterial|element:labels.text.stroke|hue:0x0091ff|lightness:43&style=feature:poi.school|hue:0x005eff|saturation:-19|lightness:-26&style=feature:transit.station|hue:0x002bff|saturation:100&style=hue:0x0091ff);
+  }
+
+  // On fait en sorte de toujours voir Métro Jourdain
+  height: 350px;
+  @media (min-width: 900px) { height: 400px; }
+  @media (min-width: 950px) { height: 490px; }
+
+  display: block;
+}
+
+/* Images */
+.full-width {
+  width: 100%;
+}
+.greyscale {
+  -webkit-transition: -webkit-filter 1s;
+  -webkit-filter: grayscale(100%);
+}
+.greyscale:hover {
+  -webkit-filter: none;
+}
+
+/* Bulles magiques */
+.js-bulle {
+  font-family: Meander, cursive;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Chrome Frame */
+
+.chromeframe {
+  margin: 0 0 1em 0;
+  padding: .5em 0;
+  background: #ccc;
+  color: #000;
+  text-shadow: none;
+  text-align: center;
+  a {
+    color: white;
+  }
+}

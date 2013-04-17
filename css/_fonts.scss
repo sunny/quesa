@@ -7,3 +7,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+%quesa-font {
+  font-family: Meander, cursive;
+  font-weight: normal;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, .9);
+  line-height: 1.8;
+}
+
+/* Main font */
+
+body {
+  font-family: Chivo, Tahoma, Helvetica, Arial, sans-serif;
+
+  // Use Typeplate, not Bootstrap
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Special font */
+
+.alpha, .beta, .gamma, %hN {
+  @extend %quesa-font;
+}
+
+.quesa {
+  @extend %quesa-font;
+  font-size: 1.2em;
+}

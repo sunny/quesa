@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="fr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="fr" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Quesapelorio</title>
     <meta name="description" content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les 4èmes jeudis de chaque moi">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="img/favicon2.png">
     <link rel="stylesheet" href="css/main.css">
@@ -24,35 +24,42 @@
       <p class="chromeframe">Vous utilisez un <strong>vieux</strong> navigateur. La honte. Merci <a href="http://browsehappy.com/">de mettre à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">d'activer Google Chrome Frame</a> avant que quelqu'un ne vous voie faire.</p>
     <![endif]-->
 
-    <div class="wrapper">
+    <div class="container">
 
-      <div class="blocs header-blocs">
-        <div class="ligne">
-          <header class="section site-header case">
+      <div class="cells">
+        <div class="row">
+          <header class="cell logo">
             <img src="img/logo.png" alt="Quesapelorio" width="189" height="261" />
-
-            <h1 class="logo">
+            <h1 class="logo-text">
               Quesapelorio
-              <span class="goutte"></span>
+              <i class="goutte"></i>
             </h1>
           </header>
 
+          <section class="cell vevent prochain-evenement">
+            <h2 class="gamma titre-evenement">
+              Notre prochain
+              <div class="beta type-evenement">
+                Cabaret d'Improvisation
+              </div>
+            </h2>
 
-          <section class="section case prochaine-date">
-            <hgroup class="section-title">
-              <h1>
-                Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp;:
-              </h1>
-              <h2>
-                Mercredi 29 mai à 21h
-                <strong>au 3 arts</strong>
-              </h2>
-            </hgroup>
+            <p>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                <g fill="white">
+                  <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
+                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none">28</text>
+                </g>
+              </svg>
+              <time datetime="2013-03-28T21:00+01:00" class="dtstart">
+                Mercredi <strong>29 mai</strong> à 21h
+              </time>
+            </p>
 
-            <p class="lieu">
-              <a href="#les3arts">
-                21 rue des rigoles, 75020 Paris
-              </a>
+            <p>
+              <i class="icon-map-marker"></i>
+              Au <strong>3 arts</strong>,
+              <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
               <abbr class="metro" title="Métro">M</abbr>
               Jourdain
             </p>
@@ -64,35 +71,30 @@
               <strong>improviseront devant vous</strong>
               sur les thèmes que <strong>vous</strong> allez écrire.
             </p>
-            <p><strong>Entrée libre</strong>, avec conso.</p>
+            <p>
+              <strong>Entrée libre</strong>, avec conso.
+            </p>
           </section>
-
-
         </div>
       </div>
 
       <hr>
 
-      <section class="section case social">
-        <h1 class="section-title">Aimez-nous</h1>
-
-        <div class="blocs">
-          <div class="ligne">
-            <div class="case">
-              <h2>Likez-nous</h2>
+      <section class="social">
+        <h2 class="section-title">Aimez-nous</h2>
+        <div class="cells">
+          <div class="row">
+            <div class="cell4 facebook">
+              <h3>Facebook</h3>
               <div class="fb-like" data-href="https://www.facebook.com/Quesapelorio" data-send="false" data-width="300" data-show-faces="true" data-font="tahoma"></div>
             </div>
-            <div class="case twitter">
-              <h2>Retweetez-nous</h2>
+            <div class="cell4 twitter">
+              <h3>Twitter</h3>
               <a class="twitter-follow-button" href="https://twitter.com/quesapelorio" data-show-count="false" data-lang="fr" data-size="large">Suivre @quesapelorio</a>
             </div>
-            <div class="case newsletter">
-              <h2>Lisez-nous</h2>
-              <a href="http://eepurl.com/v6G19">Newsletter Quesapelorio</a>
-            </div>
-            <div class="case email">
-              <h2>Écrivez-nous</h2>
-              <a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a>
+            <div class="cell4 newsletter">
+              <h3>Newsletter</h3>
+              <a href="http://eepurl.com/v6G19">La newsletter des Quesapelorio</a>
             </div>
           </div>
         </div>
@@ -100,10 +102,10 @@
 
       <hr>
 
-      <section id="nous" class="section nous">
-        <h1 class="section-title">Quézak-eau&nbsp;?</h1>
+      <section>
+        <h2>Quézak-eau&nbsp;?</h1>
         <p>
-          <strong class="quesapelorio">Quesapelorio</strong> est une <strong>troupe d’improvisation théâtrale</strong>
+          <span class="quesa">Quesapelorio</span> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
           festifs, explosifs et survoltés
           tous les <strong>4<sup>èmes</sup> jeudis</strong> de chaque mois.
@@ -121,7 +123,7 @@
               et à l’esprit <strong>lointain</strong>.
             </p>
             <p>
-              Il nomma ses enfants <strong class="quesapelorio">Quesapelorio</strong>.
+              Il nomma ses enfants <span class="quesa">Quesapelorio</span>.
               Ces derniers, pour lui faire plaisir, montèrent une
               troupe <strong>d’improvisation théâtrale</strong>.
             </p>
@@ -132,15 +134,13 @@
             <div class="nom">Brahim</div>
           </dt>
           <dd>
-            <p>
-              L’enfant du soleil, qui parcourt la terre le ciel, véritable
-              <strong>jukebox</strong> musical et imitateur de dialogue de film… «&nbsp;Virginie…
-              J’me suis cassé le coccyx&nbsp;». Il peut <strong>chauffer une salle</strong> en 30 secondes,
-              lancer une <strong>chorégraphie</strong> de groupe sur Rasputin (Boney M)
-              en 15 secondes, vous mettre une chanson dans la tête en
-              5 secondes («&nbsp;<strong>Toii… ma copiiiiineeeuu</strong>&nbsp;»)
-              et <strong>vous faire rire</strong> instantanément&nbsp;!
-            </p>
+            L’enfant du soleil, qui parcourt la terre le ciel, véritable
+            <strong>jukebox</strong> musical et imitateur de dialogue de film… «&nbsp;Virginie…
+            J’me suis cassé le coccyx&nbsp;». Il peut <strong>chauffer une salle</strong> en 30 secondes,
+            lancer une <strong>chorégraphie</strong> de groupe sur Rasputin (Boney M)
+            en 15 secondes, vous mettre une chanson dans la tête en
+            5 secondes («&nbsp;<strong>Toii… ma copiiiiineeeuu</strong>&nbsp;»)
+            et <strong>vous faire rire</strong> instantanément&nbsp;!
           </dd>
 
           <dt>
@@ -265,30 +265,35 @@
       <hr>
 
       <section id="les3arts" class="section">
-        <h1 class="section-title">Les 3 arts</h1>
+        <h2>Les 3 arts</h1>
         <p>
           21 rue des Rigoles, 75020 Paris,
-          <abbr title="Métro" class="metro">M</abbr> Jourdain
+          <abbr title="Métro" class="metro">M</abbr> Jourdain<br />
+          <a href="http://les3arts.free.fr/" rel="external">les3arts.free.fr</a>
         </p>
       </section>
     </div>
 
     <div class="bigmap">
-      <a class="greyscale" href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
+      <a href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
         Carte
       </a>
     </div>
 
-    <div class="wrapper">
+    <div class="container">
 
-      <p>&nbsp;</p>
+
       <section class="section photos">
-        <h1 class="section-title">Du théâtre pas chiant</h1>
+        <h2 class="section-title">Du théâtre pas chiant</h2>
         <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
-        <img class="full-width greyscale" src="img/photos/caucus.jpg" alt="" />
+        <img class="full-width greyscale img-rounded" src="img/photos/caucus.jpg" alt="" />
       </section>
 
+      <hr>
+
+      <h2>Écrivez-nous</h2>
+      <p><a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a></p>
     </div>
 
 
