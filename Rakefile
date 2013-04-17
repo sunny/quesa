@@ -1,7 +1,7 @@
 task :default => [:css, :js]
 
 task :css do
-  sh 'compass compile'
+  sh 'compass compile --output-style compressed --force'
 end
 
 task :js do
