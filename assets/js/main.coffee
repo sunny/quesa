@@ -5,7 +5,7 @@ jQuery ->
   faceTabs.find('dd.default').addClass('selected')
   faceTabs.find('dd').hide()
 
-  div = $('<div>').style(clear: 'both').appendTo(faceTabs)
+  div = $('<div>').css(clear: 'both').appendTo(faceTabs)
 
   faceTabs.find('dt').click ->
     $(this).addClass('selected').siblings('dt').removeClass('selected')
@@ -69,4 +69,3 @@ bubbles = (options) ->
   $(document).click ->
     newBubble()
     setTimeout(newBubble, 500)
-

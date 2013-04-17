@@ -5,7 +5,7 @@ task :css do
 end
 
 task :js do
-  sh 'coffee --compile js'
+  sh 'coffee --compile assets/js'
 end
 
 task :deploy do

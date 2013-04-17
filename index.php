@@ -10,13 +10,13 @@
     <meta name="description" content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les 4èmes jeudis de chaque moi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="img/favicon2.png">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/img/favicon2.png">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chivo:400,900" />
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <script>window.html5 || document.write('<script src="assets/js/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
   </head>
   <body>
@@ -29,7 +29,7 @@
       <div class="cells">
         <div class="row">
           <header class="cell logo">
-            <img src="img/logo.png" alt="Quesapelorio" width="189" height="261" />
+            <img src="assets/img/logo.png" alt="Quesapelorio" width="189" height="261" />
             <h1 class="logo-text">
               Quesapelorio
               <i class="goutte"></i>
@@ -48,7 +48,7 @@
               <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
                 <g fill="white">
                   <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
-                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none">28</text>
+                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none">29</text>
                 </g>
               </svg>
               <time datetime="2013-03-28T21:00+01:00" class="dtstart">
@@ -130,7 +130,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/brahim.gif" alt="Improvisateur Brahim" /></div>
+            <div class="face"><img src="assets/img/faces/brahim.gif" alt="Improvisateur Brahim" /></div>
             <div class="nom">Brahim</div>
           </dt>
           <dd>
@@ -144,7 +144,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/cecile.gif" alt="Improvisatrice Cécile" /></div>
+            <div class="face"><img src="assets/img/faces/cecile.gif" alt="Improvisatrice Cécile" /></div>
             <div class="nom">Cécile</div>
           </dt>
           <dd>
@@ -160,7 +160,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/david.gif" alt="Improvisateur David" /></div>
+            <div class="face"><img src="assets/img/faces/david.gif" alt="Improvisateur David" /></div>
             <div class="nom">David</div>
           </dt>
           <dd>
@@ -177,7 +177,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
+            <div class="face"><img src="assets/img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
             <div class="nom">Hugo</div>
           </dt>
           <dd>
@@ -195,7 +195,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
+            <div class="face"><img src="assets/img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
             <div class="nom">Nelly</div>
           </dt>
           <dd>
@@ -211,7 +211,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="img/faces/marie.gif" alt="Improvisatrice Marie" /></div>
+            <div class="face"><img src="assets/img/faces/marie.gif" alt="Improvisatrice Marie" /></div>
             <div class="nom">Marie</div>
           </dt>
           <dd>
@@ -230,7 +230,7 @@
 
 
           <dt>
-            <div class="face"><img src="img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
+            <div class="face"><img src="assets/img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
             <div class="nom">Sébastien</div>
           </dt>
           <dd>
@@ -244,7 +244,7 @@
 
 
           <dt>
-            <div class="face"><img src="img/faces/sunny.gif" alt="Improvisateur Sunny" /></div>
+            <div class="face"><img src="assets/img/faces/sunny.gif" alt="Improvisateur Sunny" /></div>
             <div class="nom">Sunny</div>
           </dt>
           <dd>
@@ -287,7 +287,7 @@
         <h2 class="section-title">Du théâtre pas chiant</h2>
         <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
-        <img class="full-width greyscale img-rounded" src="img/photos/caucus.jpg" alt="" />
+        <img class="full-width greyscale img-rounded" src="assets/img/photos/caucus.jpg" alt="" />
       </section>
 
       <hr>
@@ -299,10 +299,10 @@
 
     <!-- jquery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
     <!-- script -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- facebook -->
     <?php if (!isset($_GET['no-social'])) : ?>
