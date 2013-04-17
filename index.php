@@ -44,7 +44,7 @@
                 Notre prochain <strong>Cabaret d'Improvisation</strong>&nbsp;:
               </h1>
               <h2>
-                Jeudi 28 mars à 21h
+                Mercredi 29 mai à 21h
                 <strong>au 3 arts</strong>
               </h2>
             </hgroup>
