@@ -49,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   compass
   guard-coffeescript
   guard-compass
