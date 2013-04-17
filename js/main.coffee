@@ -3,10 +3,17 @@ jQuery ->
   faceTabs.addClass('js-face-tabs')
   faceTabs.find('dt.default').hide()
   faceTabs.find('dd.default').addClass('selected')
+  faceTabs.find('dd').hide()
+
+  div = $('<div>').style(clear: 'both').appendTo(faceTabs)
 
   faceTabs.find('dt').click ->
     $(this).addClass('selected').siblings('dt').removeClass('selected')
-    $(this).next('dd').addClass('selected').siblings('dd').removeClass('selected')
+    div.slideUp()
+    div.html($(this).next('dd').html())
+    div.slideDown()
+    #$(this).next('dd').addClass('selected').siblings('dd').removeClass('selected')
+
 
   bubbles()
 
