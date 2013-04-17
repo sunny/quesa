@@ -8,6 +8,7 @@ gem 'rack-rewrite'
 # Compile assets
 gem 'compass'
 gem 'coffee-script'
+gem 'bootstrap-sass'
 
 # Develop
 gem 'guard-compass'
