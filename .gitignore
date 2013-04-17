@@ -2,3 +2,7 @@
 tmp
 .sass-cache
 .DS_Store
+assets/css/main.css
+assets/js/main.js
+assets/js/bubbles.js
+assets/js/facetabs.js
