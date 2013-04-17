@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="fr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="fr" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,14 +10,13 @@
     <link rel="icon" href="assets/img/favicon2.png">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chivo:400,900" />
-    <script data-main="scripts/main" src="scripts/require-jquery.js"></script>
+  </head>
+  <body>
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script>window.html5 || document.write('<script src="assets/js/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
-  </head>
-  <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">Vous utilisez un <strong>vieux</strong> navigateur. La honte. Merci <a href="http://browsehappy.com/">de mettre à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">d'activer Google Chrome Frame</a> avant que quelqu'un ne vous voie faire.</p>
     <![endif]-->
@@ -61,8 +57,8 @@
               <i class="icon-map-marker"></i>
               Au <strong>3 arts</strong>,
               <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
-              <abbr class="metro" title="Métro">M</abbr>
-              Jourdain
+
+              <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
             </p>
 
             <p>
@@ -104,7 +100,7 @@
       <hr>
 
       <section>
-        <h2>Quézak-eau&nbsp;?</h1>
+        <h2 class="section-title">Quézak-eau&nbsp;?</h2>
         <p>
           <span class="quesa">Quesapelorio</span> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
@@ -266,8 +262,8 @@
       <hr>
 
       <section id="les3arts" class="section">
-        <h2>Les 3 arts</h1>
-        <p>
+        <h2 class="section-title">Les 3 arts</h2>
+        <p class="short-text">
           <strong>21 rue des Rigoles</strong>, 75020 Paris<br />
           <abbr title="Métro" class="metro">M</abbr> Jourdain<br />
           <a href="http://les3arts.free.fr/" rel="external">les3arts.free.fr</a>
@@ -284,26 +280,21 @@
     <div class="container">
 
 
-      <section class="section photos">
-        <h2 class="section-title">Du théâtre pas chiant à paris</h2>
-        <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
-        <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
-        <img class="full-width greyscale" src="assets/img/photos/caucus.jpg" alt="" />
-      </section>
+      <h2 class="section-title">Du théâtre même pas chiant</h2>
+      <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
+      <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
+      <img class="full-width greyscale" src="assets/img/photos/caucus.jpg" alt="" />
 
       <hr>
 
-      <h2>Écrivez-nous</h2>
-      <p><a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a></p>
+      <p class="short-text">
+        <a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a>
+      </p>
     </div>
 
 
-    <!-- jquery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-
-    <!-- script -->
-    <script src="assets/js/main.js"></script>
+    <!-- scripts -->
+    <script data-main="assets/js/main" src="assets/js/vendor/require.js"></script>
 
     <!-- facebook -->
     <div id="fb-root"></div>

@@ -354,7 +354,7 @@ h6 {
   font-style: normal;
 }
 
-.alpha, h1, .beta, h2, .gamma, h3, h4, h5, h6, .quesa, .js-face-tabs dt {
+.alpha, h1, .beta, h2, .gamma, h3, h4, h5, h6, .quesa, .js .face-tabs dt {
   font-family: Meander, cursive;
   font-weight: normal;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.9);
@@ -369,7 +369,7 @@ body {
 }
 
 /* Special font */
-.quesa, .js-face-tabs dt {
+.quesa, .js .face-tabs dt {
   font-size: 1.2em;
 }
 
@@ -382,12 +382,11 @@ body {
   z-index: -100;
 }
 
-.js-face-tabs {
+.js .face-tabs {
   position: relative;
-  min-height: 15em;
   clear: both;
 }
-.js-face-tabs dt {
+.js .face-tabs dt {
   width: 12.5%;
   min-width: 70px;
   margin: 1em 0;
@@ -398,11 +397,11 @@ body {
   position: relative;
   overflow: hidden;
 }
-.js-face-tabs dt .face {
+.js .face-tabs dt .face {
   position: relative;
   z-index: 1;
 }
-.js-face-tabs dt .face:after {
+.js .face-tabs dt .face:after {
   border: 6px solid transparent;
   border-color: rgba(136, 183, 213, 0);
   border-top-color: #fff;
@@ -415,14 +414,14 @@ body {
   left: 50%;
   pointer-events: none;
 }
-.js-face-tabs dt .face img {
+.js .face-tabs dt .face img {
   display: block;
   width: 90%;
   height: auto;
   border: 2px solid white;
   border-radius: 1ex;
 }
-.js-face-tabs dt .nom {
+.js .face-tabs dt .nom {
   -webkit-transition: margin 200ms;
   -moz-transition: margin 200ms;
   -o-transition: margin 200ms;
@@ -431,23 +430,26 @@ body {
   opacity: .7;
   z-index: 2;
 }
-.js-face-tabs dt:hover .nom {
+.js .face-tabs dt:hover .nom {
   margin-top: .5em;
   opacity: .6;
 }
-.js-face-tabs dt:hover .face .greyscale, .js-face-tabs dt:hover .face img {
+.js .face-tabs dt:hover .face .greyscale, .js .face-tabs dt:hover .face img {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
 }
-.js-face-tabs dt.selected .nom {
+.js .face-tabs dt.selected .nom {
   margin-top: .5em;
   opacity: 1;
 }
-.js-face-tabs dd {
+.js .face-tabs dd {
   margin: 1.5em 0 0 0;
   top: 120px;
   line-height: 1.2;
+  clear: both;
+}
+.js .face-tabs .current-face {
   clear: both;
 }
 
@@ -482,6 +484,12 @@ body {
 
 @media (max-width: 700px) {
   .section-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .short-text {
     text-align: center;
   }
 }
@@ -553,7 +561,7 @@ a.go-down {
 
 /* Icons */
 .icon, .icon-map-marker {
-  vertical-align: baseline;
+  vertical-align: -.1em;
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -569,13 +577,19 @@ a.go-down {
   width: 100%;
 }
 
-.greyscale, .js-face-tabs dt .face img {
-  -webkit-transition: -webkit-filter 1s;
+.greyscale, .js .face-tabs dt .face img {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-
-.greyscale:hover, .js-face-tabs dt .face img:hover {
+.greyscale:hover, .js .face-tabs dt .face img:hover {
   -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
 }
 
 /* Metro */

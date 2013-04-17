@@ -9,9 +9,8 @@
 }
 
 // Onglets de nos têtes
-.js-face-tabs {
+.js .face-tabs {
   position: relative;
-  min-height: 15em;
   clear: both;
 
   // Tête et nom
@@ -87,6 +86,10 @@
     margin: 1.5em 0 0 0;
     top: 120px;
     line-height: 1.2;
+    clear: both;
+  }
+
+  .current-face {
     clear: both;
   }
 }

@@ -57,7 +57,7 @@ a.go-down {
 /* Icons */
 
 .icon {
-  vertical-align: baseline;
+  vertical-align: -.1em;
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -75,10 +75,10 @@ a.go-down {
 }
 
 .greyscale {
-  transition: filter 1s;
-  filter: grayscale(100%);
+  @include transition(all 1s); // transition juste sur filter fonctionne mal
+  @include filter(grayscale(100%));
   &:hover {
-    filter: none;
+    @include filter(none);
   }
 }
 
