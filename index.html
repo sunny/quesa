@@ -13,6 +13,7 @@
     <link rel="icon" href="assets/img/favicon2.png">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chivo:400,900" />
+    <script data-main="scripts/main" src="scripts/require-jquery.js"></script>
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -267,7 +268,7 @@
       <section id="les3arts" class="section">
         <h2>Les 3 arts</h1>
         <p>
-          21 rue des Rigoles, 75020 Paris,
+          <strong>21 rue des Rigoles</strong>, 75020 Paris<br />
           <abbr title="Métro" class="metro">M</abbr> Jourdain<br />
           <a href="http://les3arts.free.fr/" rel="external">les3arts.free.fr</a>
         </p>
@@ -284,7 +285,7 @@
 
 
       <section class="section photos">
-        <h2 class="section-title">Du théâtre pas chiant</h2>
+        <h2 class="section-title">Du théâtre pas chiant à paris</h2>
         <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
         <!-- <embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F108047472817644367896%2Falbumid%2F5625844765062405009%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed> -->
         <img class="full-width greyscale" src="assets/img/photos/caucus.jpg" alt="" />
@@ -305,7 +306,6 @@
     <script src="assets/js/main.js"></script>
 
     <!-- facebook -->
-    <?php if (!isset($_GET['no-social'])) : ?>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -325,7 +325,6 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
-    <?php endif; ?>
   </body>
 </html>
 

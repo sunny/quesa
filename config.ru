@@ -4,8 +4,8 @@ require 'rack-rewrite'
 
 use Rack::Rewrite do
   rewrite %r{(.*/$)}, lambda {|match, rack_env|
-    if File.exists?(File.join(Dir.getwd, rack_env['PATH_INFO'], "index.php"))
-      rack_env['PATH_INFO'] + "index.php"
+    if File.exists?(File.join(Dir.getwd, rack_env['PATH_INFO'], "index.html"))
+      rack_env['PATH_INFO'] + "index.html"
     else
       rack_env['PATH_INFO']
     end
