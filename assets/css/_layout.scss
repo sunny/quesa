@@ -1,0 +1,36 @@
+/* Cells */
+
+.cells {
+  display: table;
+  width: 100%;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+  width: auto;
+  padding: 1em;
+}
+.cell4 {
+  @extend .cell;
+  width: (100% / 4);
+}
+
+
+/* Layout */
+
+.container {
+  margin: 0 auto;
+  max-width: 942px;
+  padding: 1em;
+}
+
+
+.section-title {
+  @media (max-width: 700px) {
+    text-align: center;
+  }
+}

@@ -4,6 +4,7 @@
 @import "mixins";
 @import "fonts";
 @import "js";
+@import "layout";
 
 /* Base html */
 
@@ -26,8 +27,6 @@ hr {
   opacity: .3;
   margin: 1.5em 0 1em 0;
 }
-
-/* Selection */
 
 @include selection {
   background: #000;
@@ -55,27 +54,6 @@ a.go-down {
 }
 
 
-/* Cells */
-
-.cells {
-  display: table;
-  width: 100%;
-}
-.row {
-  display: table-row;
-}
-.cell {
-  display: table-cell;
-  vertical-align: middle;
-  height: auto;
-  width: auto;
-  padding: 1em;
-}
-.cell4 {
-  @extend .cell;
-  width: (100% / 4);
-}
-
 /* Icons */
 
 .icon {
@@ -95,14 +73,14 @@ a.go-down {
 .full-width {
   width: 100%;
 }
+
 .greyscale {
-  @include transition-filter(1s);
-  @include filter(grayscale(100%));
+  transition: filter 1s;
+  filter: grayscale(100%);
   &:hover {
-    @include filter(none);
+    filter: none;
   }
 }
-
 
 /* Metro */
 
@@ -130,19 +108,6 @@ abbr.metro {
     color: white;
   }
 }
-
-
-
-
-
-/* Layout */
-
-.container {
-  margin: 0 auto;
-  max-width: 942px;
-  padding: 1em;
-}
-
 
 
 
@@ -186,8 +151,8 @@ abbr.metro {
   }
 }
 
-@media (max-width: 700px) {
-  .prochain-evenement {
+.prochain-evenement {
+  @media (max-width: 700px) {
     display: block;
     padding-left: 0;
     padding-right: 0;
@@ -208,12 +173,6 @@ abbr.metro {
   }
 }
 
-@media (max-width: 700px) {
-  .section-title {
-    text-align: center;
-  }
-}
-
 
 /* Bigmap */
 
@@ -228,6 +187,7 @@ abbr.metro {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
     // Basse def et haute def (scale=1 et scale=2)
     background-image: url(http://maps.googleapis.com/maps/api/staticmap?size=650x250&scale=1&center=21+rue+des+rigoles,+75020+Paris&zoom=15&sensor=false&markers=color:blue|21%20rue%20des%20rigoles,%2075020%20Paris&style=feature:landscape.man_made|hue:0x0091ff|saturation:39|lightness:-14&style=feature:road.arterial|element:geometry.fill|visibility:on|hue:0x003bff|saturation:-66|lightness:92&style=feature:road.arterial|element:labels.text.stroke|hue:0x0091ff|lightness:43&style=feature:poi.school|hue:0x005eff|saturation:-19|lightness:-26&style=feature:transit.station|hue:0x002bff|saturation:100&style=hue:0x0091ff);
     @media (min-width: 550px) {
