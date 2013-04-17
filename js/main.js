@@ -40,10 +40,9 @@
       startOpacity = options.minOpacity + Math.random() * options.maxOpacity;
       startPositionTop = mouse.y - sizeFlake;
       endPositionTop = -sizeFlake * 2;
-      endPositionLeft = startPositionLeft + Math.random() * 100;
+      endPositionLeft = startPositionLeft - 100 + Math.random() * 100;
       durationFall = startPositionTop * 10 + Math.random() * 5000;
       return bubble.clone().appendTo('body').css({
-        bottom: 0,
         top: startPositionTop,
         left: startPositionLeft,
         opacity: startOpacity,
