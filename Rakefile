@@ -15,8 +15,7 @@ task :js do
 end
 
 desc "Deploy to bearnaise.net using rsync"
-task :deploy do
-  sh "git status"
+task :deploy => :compile do
   sh "git push"
   sh "rsync -avz --delete --exclude=.sass-cache --exclude=.git ./ bearnaise.net:quesapelorio.com/"
 end
