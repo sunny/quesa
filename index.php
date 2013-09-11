@@ -1,3 +1,4 @@
+<?php require 'lib/config.php'; ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -46,39 +47,56 @@
                 Cabaret d'Improvisation
               </div>
             </h2>
-            <p>À la rentrée&nbsp;!</p>
-<!--
 
-            <p>
-              <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
-                <g fill="white">
-                  <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
-                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none">27</text>
-                </g>
-              </svg>
-              <time datetime="2013-06-27T21:00+01:00" class="dtstart">
-                Jeudi <strong>27 juin</strong> à 21h
-              </time>
-            </p>
+            <?php if ($event) : ?>
 
-            <p>
-              <i class="icon-map-marker"></i>
-              Au <strong>3 arts</strong>,
-              <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
+              <p>
+                <?php echo nl2br($event->description()) ?>
+              </p>
 
-              <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
-            </p>
+              <p>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                  <g fill="white">
+                    <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
+                    <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"><?php echo $event->day() ?></text>
+                  </g>
+                </svg>
+                <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
+                  <?php echo $event->weekday() ?> <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
+                  à <?php echo $event->hour() ?>h
+                </time>
+              </p>
 
-            <p>
-              1h30 de <strong>spectacle vivant</strong>
-              durant lesquelles
-              5 comédiens
-              <strong>improviseront devant vous</strong>
-              sur les thèmes que <strong>vous</strong> allez écrire.
-            </p>
-            <p>
-              <strong>Entrée libre</strong>, avec conso.
-            </p> -->
+              <p>
+                <i class="icon-map-marker"></i>
+                Au <strong>3 arts</strong>,
+                <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
+                <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
+              </p>
+
+              <p>
+                1h30 de <strong>spectacle vivant</strong>
+                durant lesquelles
+                5 comédiens
+                <strong>improviseront devant vous</strong>
+                sur les thèmes que <strong>vous</strong> allez écrire.
+              </p>
+
+              <p>
+                <strong>Entrée gratuite</strong>, conso obligatoire à prendre en bas.
+                Possibilité de boire et manger sur place.
+              </p>
+
+              <p>
+                <big><a href="<?php echo h($event->facebook_url()) ?>">S'inscrire sur Facebook</a></big>
+              </p>
+
+            <?php else : ?>
+
+              <p>Très prochainement, sans doute le quatrième jeudi du mois.</p>
+
+            <?php endif; ?>
+
           </section>
         </div>
       </div>
