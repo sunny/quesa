@@ -130,7 +130,7 @@
       <hr>
 
       <section>
-        <h2 class="section-title">Quézak-eau&nbsp;?</h2>
+        <h2 class="section-title">Quezak-eau&nbsp;?</h2>
         <p>
           <span class="quesa">Quesapelorio</span> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
@@ -138,24 +138,26 @@
           tous les <strong>4<sup>èmes</sup> jeudis</strong> de chaque mois.
         </p>
 
-        <dl class="face-tabs">
-          <dt class="default">
-            Quesapelorio
-          </dt>
-          <dd class="default">
-            <p>
-              La légende raconte qu’il existait un homme du nom de <strong>Hugo</strong>
-              qui, un soir de <strong>terrible orage</strong>,
-              mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
-              et à l’esprit <strong>lointain</strong>.
-            </p>
-            <p>
-              Il nomma ses enfants <span class="quesa">Quesapelorio</span>.
-              Ces derniers, pour lui faire plaisir, montèrent une
-              troupe <strong>d’improvisation théâtrale</strong>.
-            </p>
-          </dd>
+        <p>
+          La légende raconte qu’il existait un homme du nom de <strong>Hugo</strong>
+          qui, un soir de <strong>terrible orage</strong>,
+          mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
+          et à l’esprit <strong>lointain</strong>.
+        </p>
+        <p>
+          Il nomma ses enfants <span class="quesa">Quesapelorio</span>.
+          Ces derniers, pour lui faire plaisir, montèrent une
+          troupe <strong>d’improvisation théâtrale</strong>.
+        </p>
 
+      </section>
+
+      <hr>
+
+      <section>
+        <h2 class="section-title">Les improvisateurs</h2>
+
+        <dl class="face-tabs" data-face-tab-container=".face-tab-current">
           <dt>
             <div class="face"><img src="assets/img/faces/brahim.gif" alt="Improvisateur Brahim" /></div>
             <div class="nom">Brahim</div>
@@ -219,6 +221,16 @@
             durant laquelle son ouïe attaque son touché,
             et sa vue se bat avec son goût…
             un grand monsieur à la vie <strong>comme à la scène</strong>.
+          </dd>
+
+
+          <dt>
+            <div class="face"><img src="assets/img/faces/kodsi.gif" alt="Improvisateur Kodsi" /></div>
+            <div class="nom">Kodsi</div>
+          </dt>
+          <dd>
+            Tout nouveau au tableau de chasse des Quesapelorio, Kodsi est un grand talent de l'impro.
+            <strong>Efficacité</strong>, <strong>drôlitude</strong>, Kodsi est notre homme à tout faire.
           </dd>
 
           <dt>
@@ -286,14 +298,19 @@
           </dd>
 
         </dl>
+
+        <div class="face-tab-current">
+        </div>
       </section>
+
 
 
       <hr>
 
       <section id="les3arts" class="section">
-        <h2 class="section-title">Les 3 arts</h2>
+        <h2 class="section-title">Le lieu</h2>
         <p class="short-text">
+          <big>Les 3 arts</big><br />
           <strong>21 rue des Rigoles</strong>, 75020 Paris<br />
           <abbr title="Métro" class="metro">M</abbr> Jourdain<br />
           <a href="http://les3arts.free.fr/" rel="external">les3arts.free.fr</a>
@@ -317,6 +334,7 @@
 
       <hr>
 
+      <h2 class="section-title">Nous contacter</h2>
       <p class="short-text">
         <a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a>
       </p>

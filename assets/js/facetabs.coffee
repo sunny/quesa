@@ -3,13 +3,7 @@ define 'facetabs', ['jquery'], ($) ->
     # Find
     terms = @find('dt')
     definitions = @find('dd')
-    handler = $('<div class="current-face"></div>')
-
-    # Launch
-    handler.appendTo(@)
-    definitions.hide()
-    terms.first().hide()
-    handler.html definitions.first().html()
+    handler = $(@data('face-tab-container'))
 
     # Listen
     terms.on 'click', ->

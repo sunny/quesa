@@ -9,7 +9,7 @@ define ['jquery'], ($) ->
       maxSize: 20,
       minOpacity: 0.2
       maxOpacity: 0.7
-      newOn: 1000
+      newOn: 2000
 
     mouse = {}
 

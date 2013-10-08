@@ -9,7 +9,7 @@ require ['jquery', 'bubbles', 'facetabs'], ($, bubbles) ->
   bubbles()
   $ ->
     $('html').addClass('js')
-    $('.face-tabs').faceTabs()
+    $('[data-face-tab-container]').faceTabs()
 
 
 
