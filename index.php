@@ -50,9 +50,11 @@
 
             <?php if ($event) : ?>
 
-              <p>
-                <?php echo nl2br($event->description()) ?>
-              </p>
+              <?php if ($event->description()) : ?>
+                <p>
+                  <?php echo nl2br($event->description()) ?>
+                </p>
+              <?php endif; ?>
 
               <p>
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
@@ -87,9 +89,11 @@
                 Possibilité de boire et manger sur place.
               </p>
 
-              <p>
-                <big><a href="<?php echo h($event->facebook_url()) ?>">S'inscrire sur Facebook</a></big>
-              </p>
+              <?php if ($event->facebook_url()) : ?>
+                <p>
+                  <big><a href="<?php echo h($event->facebook_url()) ?>">S'inscrire sur Facebook</a></big>
+                </p>
+              <?php endif; ?>
 
             <?php else : ?>
 

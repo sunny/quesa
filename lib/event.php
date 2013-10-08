@@ -1,7 +1,7 @@
 <?php
 class Event {
   function __construct($date, $description, $facebook_url) {
-    $this->date = $date;
+    $this->date = is_string($date) ? strtotime($date) : $date;
     $this->description = $description;
     $this->facebook_url = $facebook_url;
   }

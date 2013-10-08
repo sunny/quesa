@@ -11,11 +11,15 @@ setlocale (LC_ALL, "fr_FR");
 
 // Data
 $EVENTS = array(
-  new Event(
-    strtotime("2013-09-26 21:00"),
-    "Après 2 mois de repos, les Quesapelorio ont repris du poil de la bête… (ou de la goutte de champion) et se préparent à attaquer cette rentrée <strong>en fanfare</strong> !!!\nNous vous attendons donc nombreux pour <strong>fêter cette rentrée</strong> et lancer avec nous cette nouvelle année d'impro 2013/2014, toujours sous le signe du rire !",
-    "https://www.facebook.com/events/594713350572122/"
-  ),
+  new Event("2013-10-24 21:00", "", "https://www.facebook.com/events/349197361893739/"),
+  new Event("2013-11-28 21:00", "", ""),
+  new Event("2013-12-18 21:00", "", ""),
+  new Event("2014-01-23 21:00", "", ""),
+  new Event("2014-02-27 21:00", "", ""),
+  new Event("2014-03-27 21:00", "", ""),
+  new Event("2014-04-24 21:00", "", ""),
+  new Event("2014-05-22 21:00", "", ""),
+  new Event("2014-06-26 21:00", "", ""),
 );
 
 // View
