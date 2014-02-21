@@ -229,8 +229,13 @@
             <div class="nom">Kodsi</div>
           </dt>
           <dd>
-            Tout nouveau au tableau de chasse des Quesapelorio, Kodsi est un grand talent de l'impro.
-            <strong>Efficacité</strong>, <strong>drôlitude</strong>, Kodsi est notre homme à tout faire.
+            Tout nouveau au tableau de chasse des Quesapelorio, Kodsi est un
+            grand talent de l'impro.
+            <strong>Efficacité</strong>, <strong>drôlitude</strong>, Kodsi
+            est notre homme à tout faire et il vous le prouve en sortant
+            de son esprit mondes <strong>féériques</strong>,
+            situations alambiquées et personnages du quotidien.
+            Go go gadgeto Kodsi&nbsp;!
           </dd>
 
           <dt>
