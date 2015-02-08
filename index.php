@@ -234,8 +234,8 @@
             <strong>Efficacité</strong>, <strong>drôlitude</strong>, Kodsi
             est notre homme à tout faire et il vous le prouve en sortant
             de son esprit mondes <strong>féériques</strong>,
-            situations alambiquées et personnages du quotidien.
-            Go go gadgeto Kodsi&nbsp;!
+            situations alambiquées et personnages du quotidien.<br />
+            Go go gadgeto Koko&nbsp;!
           </dd>
 
           <dt>
