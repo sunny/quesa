@@ -9,7 +9,7 @@ require dirname(__FILE__)."/event.php";
 function h($s) { return htmlspecialchars($s); }
 
 // Config
-setlocale(LC_ALL, "fr_FR");
+setlocale(LC_ALL, "fr_FR.utf8");
 
 // Data
 $EVENTS = array(
