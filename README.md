@@ -3,12 +3,16 @@ Quesa
 
 Le site des Quesapelorio.
 
+Dependencies
+------------
+
+    $ gem install compass
+
+
 Compile
 -------
 
-    $ rake js
-    $ rake css
-    $ rake compile # both
+    $ rake
 
 Deploy
 ------

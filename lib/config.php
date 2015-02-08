@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Paris');
+
 // Requirements
 require dirname(__FILE__)."/event.php";
 
@@ -21,4 +23,3 @@ $EVENTS = array(
 
 // View
 $event = Event::current_event();
-
