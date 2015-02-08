@@ -7,15 +7,16 @@ require dirname(__FILE__)."/event.php";
 function h($s) { return htmlspecialchars($s); }
 
 // Config
-setlocale (LC_ALL, "fr_FR");
+setlocale(LC_ALL, "fr_FR");
 
 // Data
 $EVENTS = array(
-  new Event("2014-02-27 21:00", "", "http://bit.ly/Quesapelorio-Cabaret-fevrier-2014"),
-  new Event("2014-03-27 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-mars-2013
-  new Event("2014-04-24 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-avril-2014
-  new Event("2014-05-22 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-mai-2014
-  new Event("2014-06-26 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-juin-2014
+  new Event("2015-03-26 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-mars-2015
+  new Event("2015-04-23 21:00", "", ""),
+  new Event("2015-05-28 21:00", "", ""),
+  new Event("2015-06-25 21:00", "", ""),
+  new Event("2015-07-23 21:00", "", ""),
+  new Event("2015-08-27 21:00", "", ""),
 );
 
 // View
