@@ -223,6 +223,19 @@
             un grand monsieur à la vie <strong>comme à la scène</strong>.
           </dd>
 
+          <dt>
+            <div class="face"><img src="assets/img/faces/hugos.gif" alt="Improvisateur Hugo" /></div>
+            <div class="nom">Hugo</div>
+          </dt>
+          <dd>
+            Hugo Saumon est un poisson <strong>singulier</strong> qui évolue dorénavant
+            dans l'eau gazeuse des Quesapélorios.
+            Mi homme de culture, mi homme de science, cette espèce rare saura
+            vous raconter <strong>de belles histoires</strong>.
+            Les bulles lui montent rapidement à la tête et le poussent aux plus
+            grandes <strong>folies improvisées</strong>.
+            Un Saumon qui ne se laissera pas transformer en sashimi si rapidement…
+          </dd>
 
           <dt>
             <div class="face"><img src="assets/img/faces/kodsi.gif" alt="Improvisateur Kodsi" /></div>
