@@ -252,6 +252,22 @@
           </dd>
 
           <dt>
+            <div class="face"><img src="assets/img/faces/margot.gif" alt="Improvisatrice Margot" /></div>
+            <div class="nom">Margot</div>
+          </dt>
+          <dd>
+            Margot Torres, elle est à l'impro ce que Zizou est au football,
+            Kant à la philo et Maïté à la cuisine… <strong>une référence&nbsp;!!</strong>
+            Elle sait user de son charme pour vous faire fondre
+            et de son humour (pas toujours subtil, subtil)
+            pour <strong>vous faire rire</strong>.
+            Son arme secrète&nbsp;: <strong>"Le mitou"</strong>, n.m. signifiant jeu
+            de mot plus ou moins élaboré, parfois bison, souvent inattendu,
+            <strong>toujours efficace</strong>. Laurent Ruquier lui a récemment envoyé des
+            fleurs pour féliciter l'ensemble de son oeuvre.
+          </dd>
+
+          <dt>
             <div class="face"><img src="assets/img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
             <div class="nom">Nelly</div>
           </dt>
