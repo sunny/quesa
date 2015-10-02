@@ -143,8 +143,8 @@
         </p>
 
         <p>
-          La légende raconte qu’il existait un homme du nom de <strong>Hugo</strong>
-          qui, un soir de <strong>terrible orage</strong>,
+          La légende raconte qu’il existait un homme du nom de
+          <strong>Hugo B</strong> qui, un soir de <strong>terrible orage</strong>,
           mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
           et à l’esprit <strong>lointain</strong>.
         </p>
