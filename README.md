@@ -14,6 +14,11 @@ Compile
 
     $ rake
 
+Server
+------
+
+    $ php -S localhost:4000
+
 Deploy
 ------
 
