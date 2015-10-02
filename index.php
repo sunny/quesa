@@ -206,6 +206,20 @@
           </dd>
 
           <dt>
+            <div class="face"><img src="assets/img/faces/dorothee.gif" alt="Improvisateur Dorothée" /></div>
+            <div class="nom">Dorothée</div>
+          </dt>
+          <dd>
+            Dorothée, c’est d’abord une voix. Qu’on attendait pas — en tout cas pas
+            comme ça. Des (très) aigus aux graves, du zouk au flamenco, Dorothée
+            <strong>transcende</strong> chaque note. Et c’est baroque, et vous
+            supplierez pour que ça dure toujours, mais à la fin ça finira.
+            Dorothée reprendra <strong>possession de son corps</strong>,
+            pour incarner une femme pressée, un homme retardé, une pendule de salon.
+            Car Dorothée peut tout, <strong>pour vous faire rire</strong>.
+          </dd>
+          
+          <dt>
             <div class="face"><img src="assets/img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
             <div class="nom">Hugo</div>
           </dt>
@@ -268,22 +282,6 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="assets/img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
-            <div class="nom">Nelly</div>
-          </dt>
-          <dd>
-            M<sup>elle</sup> <strong>crotte de nez</strong>. Elle les aime dures,
-            elle les aime tendres… on parle <strong>des impros</strong> bien évidemment ;)
-            Son tempérament explosif peut vous faire… <strong>exploser de rire</strong>
-            ou bien vous <strong>terrifier</strong>
-            (elle s’énerve super bien pour de faux… Mattias peut confirmer).
-            Ses hobbies sont simples… <strong>découper des bras et des jambes</strong>
-            d’humains. C’est <strong>comme du poulet</strong> parait-il.
-            Mais ne vous inquiétez pas, cette douce demoiselle fait
-            ça pour la science et viendra sans son scalpel.
-          </dd>
-
-          <dt>
             <div class="face"><img src="assets/img/faces/marie.gif" alt="Improvisatrice Marie" /></div>
             <div class="nom">Marie</div>
           </dt>
@@ -301,6 +299,22 @@
           </dd>
 
 
+
+          <dt>
+            <div class="face"><img src="assets/img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
+            <div class="nom">Nelly</div>
+          </dt>
+          <dd>
+            M<sup>elle</sup> <strong>crotte de nez</strong>. Elle les aime dures,
+            elle les aime tendres… on parle <strong>des impros</strong> bien évidemment ;)
+            Son tempérament explosif peut vous faire… <strong>exploser de rire</strong>
+            ou bien vous <strong>terrifier</strong>
+            (elle s’énerve super bien pour de faux… Mattias peut confirmer).
+            Ses hobbies sont simples… <strong>découper des bras et des jambes</strong>
+            d’humains. C’est <strong>comme du poulet</strong> parait-il.
+            Mais ne vous inquiétez pas, cette douce demoiselle fait
+            ça pour la science et viendra sans son scalpel.
+          </dd>
 
           <dt>
             <div class="face"><img src="assets/img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
