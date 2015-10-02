@@ -270,6 +270,14 @@
           </dd>
 
           <dt>
+            <div class="face"><img src="assets/img/faces/lisa.gif" alt="Improvisateur Lisa" /></div>
+            <div class="nom">Lisa</div>
+          </dt>
+          <dd>
+            Lisa. L'indescriptible.
+          </dd>
+
+          <dt>
             <div class="face"><img src="assets/img/faces/margot.gif" alt="Improvisatrice Margot" /></div>
             <div class="nom">Margot</div>
           </dt>
@@ -347,6 +355,14 @@
             Après avoir été fait Cheveulier sur <strong>une impro capillaire</strong>,
             il continue ses sérénades avec son style bien à lui
             et ses <strong>interventions chirurgicales</strong>.
+          </dd>
+
+          <dt>
+            <div class="face"><img src="assets/img/faces/yuna.gif" alt="Improvisatrice Yuna" /></div>
+            <div class="nom">Yuna</div>
+          </dt>
+          <dd>
+            Yuna. L'indescriptible.
           </dd>
 
         </dl>
