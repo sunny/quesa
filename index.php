@@ -223,7 +223,7 @@
             Car Dorothée peut tout, <strong>pour vous faire rire</strong>.
           </dd>
 
-          <dt>
+          <!-- <dt>
             <div class="face"><img src="assets/img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
             <div class="nom">Hugo</div>
           </dt>
@@ -239,7 +239,7 @@
             durant laquelle son ouïe attaque son touché,
             et sa vue se bat avec son goût…
             un grand monsieur à la vie <strong>comme à la scène</strong>.
-          </dd>
+          </dd> -->
 
           <dt>
             <div class="face"><img src="assets/img/faces/hugos.gif" alt="Improvisateur Hugo" /></div>
@@ -304,7 +304,7 @@
 
 
 
-          <dt>
+          <!-- <dt>
             <div class="face"><img src="assets/img/faces/nelly.gif" alt="Improvisatrice Nelly" /></div>
             <div class="nom">Nelly</div>
           </dt>
@@ -318,7 +318,7 @@
             d’humains. C’est <strong>comme du poulet</strong> parait-il.
             Mais ne vous inquiétez pas, cette douce demoiselle fait
             ça pour la science et viendra sans son scalpel.
-          </dd>
+          </dd> -->
 
           <dt>
             <div class="face"><img src="assets/img/faces/sebastien.gif" alt="Improvisateur Sébastien" /></div>
