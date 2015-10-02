@@ -210,7 +210,7 @@
           </dd>
 
           <dt>
-            <div class="face"><img src="assets/img/faces/dorothee.gif" alt="Improvisateur Dorothée" /></div>
+            <div class="face"><img src="assets/img/faces/dorothee.gif" alt="Improvisatrice Dorothée" /></div>
             <div class="nom">Dorothée</div>
           </dt>
           <dd>
