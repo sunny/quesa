@@ -57,37 +57,39 @@
               <?php endif; ?>
 
               <p>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
-                  <g fill="white">
-                    <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
-                    <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"><?php echo $event->day() ?></text>
-                  </g>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" fill="white">
+                  <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
+                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"
+                    ><?php echo $event->day() ?></text>
                 </svg>
                 <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
-                  <?php echo $event->weekday() ?> <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
+                  <?php echo $event->weekday() ?>
+                  <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
                   à <?php echo $event->hour() ?>h
                 </time>
               </p>
 
-              <p>
-                <i class="icon-map-marker"></i>
-                Au <strong>3 arts</strong>,
-                <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
-                <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
-              </p>
+              <?php if ($event->location() == "3arts") : ?>
+                <p>
+                  <i class="icon-map-marker"></i>
+                  Au <strong>3 arts</strong>,
+                  <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
+                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
+                </p>
 
-              <p>
-                1h30 de <strong>spectacle vivant</strong>
-                durant lesquelles
-                5 comédiens
-                <strong>improviseront devant vous</strong>
-                sur les thèmes que <strong>vous</strong> allez écrire.
-              </p>
+                <p>
+                  1h30 de <strong>spectacle vivant</strong>
+                  durant lesquelles
+                  5 comédiens
+                  <strong>improviseront devant vous</strong>
+                  sur les thèmes que <strong>vous</strong> allez écrire.
+                </p>
 
-              <p>
-                <strong>Entrée gratuite</strong>, conso obligatoire à prendre en bas.
-                Possibilité de boire et manger sur place.
-              </p>
+                <p>
+                  <strong>Entrée gratuite</strong>, conso obligatoire à prendre en bas.
+                  Possibilité de boire et manger sur place.
+                </p>
+              <?php endif; ?>
 
               <?php if ($event->facebook_url()) : ?>
                 <p>
@@ -218,7 +220,7 @@
             pour incarner une femme pressée, un homme retardé, une pendule de salon.
             Car Dorothée peut tout, <strong>pour vous faire rire</strong>.
           </dd>
-          
+
           <dt>
             <div class="face"><img src="assets/img/faces/hugo.gif" alt="Improvisateur Hugo" /></div>
             <div class="nom">Hugo</div>

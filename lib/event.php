@@ -1,9 +1,14 @@
 <?php
 class Event {
-  function __construct($date, $description, $facebook_url) {
+  function __construct($date, $description, $facebook_url, $location = "3arts") {
     $this->date = is_string($date) ? strtotime($date) : $date;
     $this->description = $description;
     $this->facebook_url = $facebook_url;
+    $this->location = $location;
+  }
+
+  function location() {
+    return $this->location;
   }
 
   function day() {

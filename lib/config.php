@@ -13,12 +13,8 @@ setlocale(LC_ALL, "fr_FR.utf8");
 
 // Data
 $EVENTS = array(
-  new Event("2015-03-26 21:00", "", ""), # http://bit.ly/Quesapelorio-Cabaret-mars-2015
-  new Event("2015-04-23 21:00", "", ""),
-  new Event("2015-05-28 21:00", "", ""),
-  new Event("2015-06-25 21:00", "", ""),
-  new Event("2015-07-23 21:00", "", ""),
-  new Event("2015-08-27 21:00", "", ""),
+  new Event("2015-10-16 21:00", "Nous avons le plaisir venir à Hong Kong pour vous proposer 2 représentations exceptionnelles.", "https://www.facebook.com/events/519773924844064/", "hk"),
+  new Event("2015-10-17 21:00", "Nous avons le plaisir venir à Hong Kong pour vous proposer 2 représentations exceptionnelles.", "https://www.facebook.com/events/519773924844064/", "hk"),
 );
 
 // View
