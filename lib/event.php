@@ -11,6 +11,10 @@ class Event {
     return $this->location;
   }
 
+  function date() {
+    return $this->date;
+  }
+
   function day() {
     return strftime("%d", $this->date);
   }

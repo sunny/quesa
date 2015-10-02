@@ -56,18 +56,20 @@
                 </p>
               <?php endif; ?>
 
-              <p>
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" fill="white">
-                  <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
-                  <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"
-                    ><?php echo $event->day() ?></text>
-                </svg>
-                <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
-                  <?php echo $event->weekday() ?>
-                  <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
-                  à <?php echo $event->hour() ?>h
-                </time>
-              </p>
+              <?php if ($event->date()) : ?>
+                <p>
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" fill="white">
+                    <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
+                    <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"
+                      ><?php echo $event->day() ?></text>
+                  </svg>
+                  <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
+                    <?php echo $event->weekday() ?>
+                    <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
+                    à <?php echo $event->hour() ?>h
+                  </time>
+                </p>
+              <?php endif; ?>
 
               <?php if ($event->location() == "3arts") : ?>
                 <p>
