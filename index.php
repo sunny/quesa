@@ -362,7 +362,15 @@
             <div class="nom">Yuna</div>
           </dt>
           <dd>
-            Yuna. L'indescriptible.
+            Une voix s’élève au cœur de la forêt… Serait-ce un petit lutin, une
+            gentille fée&nbsp;? Pas du tout, c’est notre Yuna nationale qui
+            <strong>fait encore le pitre</strong>…
+            Experte dans l'art de «&nbsp;faire le zouave&nbsp;»,
+            c'est <strong>sous les feux de la rampe</strong> qu'elle se révèle&nbsp;:
+            métamorphosée en <strong>chanteuse de cabaret</strong> à la voix rauque,
+            elle a montré que derrière ses airs de petit animal craintif se cache
+            une véritable tigresse prête à rugir… <strong>pour notre plus
+            grand plaisir&nbsp;!</strong> Grrrrr&nbsp;!!!
           </dd>
 
         </dl>
