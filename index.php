@@ -274,7 +274,15 @@
             <div class="nom">Lisa</div>
           </dt>
           <dd>
-            Lisa. L'indescriptible.
+            Trouvant sa source à Chatou, terre d'impro,
+            <strong>fine et pétillante</strong> de nature, Lisa était vouée
+            dès sa tendre enfance à devenir non pas une bouteille d'eau gazeuse
+            mais bien une Quésa généreuse et
+            <strong>chérie par le public</strong>
+            comme par ses camarades de jeu. D'un entrechat et de sa voix de
+            contre alto, elle rayonne et <strong>déconne</strong>.
+            Elle est depuis 2003 reconnue d'utilité publique par
+            l'OMS pour <strong>ses vertus exhilarantes</strong>.
           </dd>
 
           <dt>
