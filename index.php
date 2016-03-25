@@ -66,7 +66,7 @@
                   <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
                     <?php echo $event->weekday() ?>
                     <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
-                    à <?php echo $event->hour() ?>h
+                    à <?php echo $event->hour() ?>
                   </time>
                 </p>
               <?php endif; ?>

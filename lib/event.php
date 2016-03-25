@@ -28,7 +28,7 @@ class Event {
   }
 
   function hour() {
-    return strftime("%H", $this->date);
+    return strftime("%Hh%M", $this->date);
   }
 
   function timestamp() {
