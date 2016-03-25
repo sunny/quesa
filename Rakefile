@@ -1,7 +1,7 @@
-task :default => :compile
+task default: :compile
 
 desc "Compile all the things"
-task :compile => [:css, :js]
+task compile: [:css, :js]
 
 desc "Compile CSS"
 task :css do
@@ -14,8 +14,8 @@ task :js do
   # sh "r.js -o assets/js/app.build.js"
 end
 
-desc "Deploy to bearnaise.net using rsync"
-task :deploy => :compile do
+desc "Deploy using rsync"
+task deploy: :compile do
   sh "git push"
-  sh "rsync -avz --delete --exclude=.sass-cache --exclude=.git ./ bearnaise.net:quesapelorio.com/"
+  sh "rsync -avz --delete --exclude=.sass-cache --exclude=.git ./ sunfox.ooklxc:quesapelorio.com/"
 end
