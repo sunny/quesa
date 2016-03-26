@@ -1,19 +1,7 @@
 <?php
 
-date_default_timezone_set('Europe/Paris');
-
-// Requirements
-require dirname(__FILE__)."/event.php";
-
-// Helpers
-function h($s) { return htmlspecialchars($s); }
-
-// Config
-setlocale(LC_ALL, "fr_FR.utf8");
-
-// Data
 $EVENTS = array(
-  new Event("2016-04-27 20:45", "", ""),
+  new Event("2016-04-27 20:45", "", "https://www.facebook.com/events/1701892366762536/"),
   new Event("2016-05-25 20:45", "", ""),
   new Event("2016-06-22 20:45", "", ""),
 
@@ -26,6 +14,3 @@ $EVENTS = array(
   #          "https://www.facebook.com/events/519773924844064/",
   #          "hk"),
 );
-
-// View
-$event = Event::current_event();

@@ -1,4 +1,4 @@
-<?php require 'lib/config.php'; ?>
+<?php require 'lib/init.php'; ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
