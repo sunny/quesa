@@ -10,5 +10,5 @@ $EVENTS = array(
   #           "Nous avons le plaisir venir à Hong Kong pour vous proposer 2 représentations exceptionnelles les 16 et 17 octobre 2015.",
   #           "https://www.facebook.com/events/519773924844064/",
   #           "hk"),
-  new Event("2016-12-04 18:00", "", ""),
+  new Event("2016-12-04 18:30", "", "https://www.facebook.com/events/1827878467447075/", "les-ecuries"),
 );

@@ -71,24 +71,22 @@
                 </p>
               <?php endif; ?>
 
-              <?php if ($event->location() == "3arts") : ?>
+              <?php if ($event->location() == "les-ecuries") : ?>
                 <p>
                   <i class="icon-map-marker"></i>
-                  Au <strong>3 arts</strong>,
-                  <a href="#les3arts" class="location go-down">21 rue des rigoles, 75020 Paris</a>
-                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Jourdain
+                  À <strong>Les Écuries</strong>,
+                  <a href="#les-ecuries" class="location go-down">8 rue bachaumont, 75002 Paris</a>
+                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Sentier
                 </p>
 
                 <p>
-                  1h30 de <strong>spectacle vivant</strong>
-                  durant lesquelles
-                  5 comédiens
-                  <strong>improviseront devant vous</strong>
+                  Un spectacle vivant où 4 comédiens <strong>improviseront</strong>
                   sur les thèmes que <strong>vous</strong> allez écrire.
+                  Au programme, de belles histoires, de belles rencontres et du rire&nbsp;!
                 </p>
 
                 <p>
-                  <strong>Entrée gratuite</strong>, conso obligatoire à prendre en bas.
+                  <strong>Entrée libre</strong>, participation au chapeau.
                   Possibilité de boire et manger sur place.
                 </p>
               <?php endif; ?>
@@ -394,7 +392,7 @@
 
       <hr>
 
-      <section id="les3arts" class="section">
+      <section id="les-ecuries" class="section">
         <h2 class="section-title">Le lieu</h2>
         <p class="short-text">
           <big>Les Écuries</big><br />
