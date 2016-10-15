@@ -11,8 +11,8 @@
     <meta content="http://quesapelorio.com/" property="og:url" />
     <meta content="/assets/img/logo-carre.png" property="og:image" />
     <meta content="Quesapelorio" property="og:site_name" />
-    <meta content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les 4èmes jeudis de chaque mois" />
-    <meta name="description" content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les 4èmes jeudis de chaque mois">
+    <meta content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les premiers dimanches de chaque mois" />
+    <meta name="description" content="Quesapelorio est une troupe d’improvisation théâtrale à Paris qui fait des Cabarets d'impro festifs, explosifs et survoltés tous les premiers dimanches de chaque mois">
 
     <link rel="icon" href="assets/img/favicon2.png">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -101,7 +101,10 @@
 
             <?php else : ?>
 
-              <p>Très prochainement, sans doute le quatrième jeudi du mois.</p>
+              <p>
+                À suivre sur
+                <a href="https://www.facebook.com/Quesapelorio/">notre page Facebook</a>.
+              </p>
 
             <?php endif; ?>
 
