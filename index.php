@@ -394,16 +394,16 @@
       <section id="les3arts" class="section">
         <h2 class="section-title">Le lieu</h2>
         <p class="short-text">
-          <big>Les 3 arts</big><br />
-          <strong>21 rue des Rigoles</strong>, 75020 Paris<br />
-          <abbr title="Métro" class="metro">M</abbr> Jourdain<br />
-          <a href="http://les3arts.free.fr/" rel="external">les3arts.free.fr</a>
+          <big>Les Écuries</big><br />
+          <strong>8 rue bachaumont</strong>, 75002 Paris<br />
+          <abbr title="Métro" class="metro">M</abbr> Sentier<br />
+          <a href="http://lesecuries-bar.com/" rel="external">lesecuries-bar.com</a>
         </p>
       </section>
     </div>
 
     <div class="bigmap">
-      <a href="https://maps.google.fr/maps?q=21+rue+des+rigoles,+75020+Paris">
+      <a href="https://www.google.fr/maps/place/8+Rue+Bachaumont,+75002+Paris">
         Carte
       </a>
     </div>
