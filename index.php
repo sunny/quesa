@@ -140,7 +140,7 @@
           <span class="quesa">Quesapelorio</span> est une <strong>troupe d’improvisation théâtrale</strong>
           à Paris qui fait des <strong>Cabarets d'impro</strong>
           festifs, explosifs et survoltés
-          tous les <strong>4<sup>èmes</sup> jeudis</strong> de chaque mois.
+          chaque <strong>1<sup>er</sup> dimanche</strong> du mois.
         </p>
 
         <p>
