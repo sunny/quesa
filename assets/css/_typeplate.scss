@@ -140,7 +140,7 @@ $stats-border-style: 0.125rem solid #ccc;
 // --------------------------------------------------------------------------
 
 @function ems($target, $context) {
-	@return ($target/$context)#{em};
+	@return unquote("#{$target / $context}em");
 }
 
 
@@ -150,12 +150,12 @@ $stats-border-style: 0.125rem solid #ccc;
 
 @function modular-scale($scale, $base, $value) {
 	// divide a given font-size by base font-size & return a relative em value
-	@return ($scale/$base)#{$value};
+	@return unquote("#{$scale / $base}#{$value}");
 }
 
 @function measure-margin($scale, $measure, $value) {
 	// divide 1 unit of measure by given font-size & return a relative em value
-	@return ($measure/$scale)#{$value};
+	@return unquote("#{$measure / $scale}#{$value}");
 }
 
 
@@ -172,7 +172,7 @@ $stats-border-style: 0.125rem solid #ccc;
 
 // $Typographic scale
 @mixin modular-scale($scale, $base, $value, $measure:"") {
-	font-size: $scale#{px};
+	font-size: unquote("#{$scale}px");
 	font-size: modular-scale($scale, $base, $value);
 	@if $measure != "" {
 		margin-bottom: measure-margin($scale, $measure, $value);
@@ -185,9 +185,9 @@ $stats-border-style: 0.125rem solid #ccc;
 
 @mixin base-type($weight, $line-height, $font-size, $font-family...) {
 	@if $serif-boolean {
-		font: $weight #{$font-size}%/#{$line-height} $font-family;
-	}@else {
-		font: $weight #{$font-size}%/#{$line-height} $font-family-sans;
+		font: unquote("#{$weight} #{$font-size}%/#{$line-height} #{$font-family}");
+	} @else {
+		font: unquote("#{$weight} #{$font-size}%/#{$line-height} #{$font-family-sans}");
 	}
 }
 
@@ -462,7 +462,7 @@ xmp {
 
 @mixin white-space($wrap-space) {
 	@if $wrap-space == 'pre-wrap' {
-		white-space: #{-moz-}$wrap-space;	// Firefox 1.0-2.0
+		white-space: unquote("-moz-#{$wrap-space}");	// Firefox 1.0-2.0
 		white-space: $wrap-space; 			// current browsers
 	} @else {
 		white-space: $wrap-space;
