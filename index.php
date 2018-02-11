@@ -71,6 +71,26 @@
                 </p>
               <?php endif; ?>
 
+              <?php if ($event->location() == "les-marquises") : ?>
+                <p>
+                  <i class="icon-map-marker"></i>
+                  À <strong>Les Marquises</strong>,
+                  <a href="#les-marquises" class="location go-down">145 Rue Oberkampf, 75011 Paris</a>
+                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Ménilmontant
+                </p>
+
+                <p>
+                  Un spectacle vivant où 4 comédiens <strong>improviseront</strong>
+                  sur les thèmes que <strong>vous</strong> allez écrire.
+                  Au programme, de belles histoires, de belles rencontres et du rire&nbsp;!
+                </p>
+
+                <p>
+                  <strong>Entrée libre</strong>, participation au chapeau.
+                  Possibilité de boire et manger sur place.
+                </p>
+              <?php endif; ?>
+
               <?php if ($event->location() == "les-ecuries") : ?>
                 <p>
                   <i class="icon-map-marker"></i>
@@ -388,30 +408,25 @@
         </div>
       </section>
 
-
-
       <hr>
 
-      <section id="les-ecuries" class="section">
+      <section id="les-marquises" class="section">
         <h2 class="section-title">Le lieu</h2>
         <p class="short-text">
-          <big>Les Écuries</big><br />
-          <strong>8 rue bachaumont</strong>, 75002 Paris<br />
-          <abbr title="Métro" class="metro">M</abbr> Sentier<br />
-          <a href="http://lesecuries-bar.com/" rel="external">lesecuries-bar.com</a>
+          <big>Les Marquises</big><br />
+          <strong>145 Rue Oberkampf</strong>, 75011 Paris<br />
+          <abbr title="Métro" class="metro">M</abbr> Ménilmontant
         </p>
       </section>
     </div>
 
     <div class="bigmap">
-      <a href="https://www.google.fr/maps/place/8+Rue+Bachaumont,+75002+Paris">
+      <a href="https://www.google.fr/maps/place/145+Rue+Oberkampf,+75011+Paris">
         Carte
       </a>
     </div>
 
     <div class="container">
-
-
       <h2 class="section-title">Du théâtre même pas chiant</h2>
       <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
 
