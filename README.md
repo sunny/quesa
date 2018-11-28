@@ -7,7 +7,7 @@ Dependencies
 ------------
 
     $ gem install compass
-
+    $ npm install --global coffeescript
 
 Compile
 -------

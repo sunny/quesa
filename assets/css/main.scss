@@ -137,21 +137,9 @@ abbr.metro {
 }
 
 
-/* Évenement */
+/* Tagline */
 
-.titre-evenement {
-  @media (max-width: 700px) {
-    text-align: center;
-  }
-}
-
-.type-evenement {
-  @media (min-width: 700px) and (max-width: 890px) {
-    font-size: .9em;
-  }
-}
-
-.prochain-evenement {
+.tagline {
   @media (max-width: 700px) {
     display: block;
     padding-left: 0;
@@ -159,6 +147,13 @@ abbr.metro {
     width: auto;
   }
 }
+
+.tagline-title {
+  @media (max-width: 700px) {
+    text-align: center;
+  }
+}
+
 
 /* Social */
 

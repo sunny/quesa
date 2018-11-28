@@ -19,17 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Chivo:400,900" />
   </head>
   <body>
-
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script>window.html5 || document.write('<script src="assets/js/vendor/html5shiv.js"><\/script>')</script>
-    <![endif]-->
-    <!--[if lt IE 7]>
-      <p class="chromeframe">Vous utilisez un <strong>vieux</strong> navigateur. La honte. Merci <a href="http://browsehappy.com/">de mettre à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">d'activer Google Chrome Frame</a> avant que quelqu'un ne vous voie faire.</p>
-    <![endif]-->
-
     <div class="container">
-
       <div class="cells">
         <div class="row">
           <header class="cell logo">
@@ -40,98 +30,21 @@
             </h1>
           </header>
 
-          <section class="cell vevent prochain-evenement">
-            <h2 class="gamma titre-evenement">
-              Notre prochain
-              <div class="beta type-evenement">
-                Cabaret d'Improvisation
+          <section class="cell tagline">
+            <h2 class="gamma tagline-title">
+              Une troupe de mercenaires
+              <div class="alpha">
+                d'improvisation
               </div>
             </h2>
-
-            <?php if ($event) : ?>
-
-              <?php if ($event->description()) : ?>
-                <p>
-                  <?php echo nl2br($event->description()) ?>
-                </p>
-              <?php endif; ?>
-
-              <?php if ($event->date()) : ?>
-                <p>
-                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" fill="white">
-                    <path d="M0,0v100h100V0H0z M93.164,93.164H6.836V25.469h86.328V93.164z"></path>
-                    <text x="50" y="80" style="text-anchor: middle; font: 50px Helvetica, sans-serif;text-shadow: none"
-                      ><?php echo $event->day() ?></text>
-                  </svg>
-                  <time datetime="<?php echo $event->timestamp() ?>" class="dtstart">
-                    <?php echo $event->weekday() ?>
-                    <strong><?php echo $event->day() ?> <?php echo $event->month() ?></strong>
-                    à <?php echo $event->hour() ?>
-                  </time>
-                </p>
-              <?php endif; ?>
-
-              <?php if ($event->location() == "les-marquises") : ?>
-                <p>
-                  <i class="icon-map-marker"></i>
-                  À <strong>Les Marquises</strong>,
-                  <a href="#les-marquises" class="location go-down">145 Rue Oberkampf, 75011 Paris</a>
-                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Ménilmontant
-                </p>
-
-                <p>
-                  Un spectacle vivant où 4 comédiens <strong>improviseront</strong>
-                  sur les thèmes que <strong>vous</strong> allez écrire.
-                  Au programme, de belles histoires, de belles rencontres et du rire&nbsp;!
-                </p>
-
-                <p>
-                  <strong>Entrée libre</strong>, participation au chapeau.
-                  Possibilité de boire et manger sur place.
-                </p>
-              <?php endif; ?>
-
-              <?php if ($event->location() == "les-ecuries") : ?>
-                <p>
-                  <i class="icon-map-marker"></i>
-                  À <strong>Les Écuries</strong>,
-                  <a href="#les-ecuries" class="location go-down">8 rue bachaumont, 75002 Paris</a>
-                  <abbr class="metro" title="Métro">M</abbr>&nbsp;Sentier
-                </p>
-
-                <p>
-                  Un spectacle vivant où 4 comédiens <strong>improviseront</strong>
-                  sur les thèmes que <strong>vous</strong> allez écrire.
-                  Au programme, de belles histoires, de belles rencontres et du rire&nbsp;!
-                </p>
-
-                <p>
-                  <strong>Entrée libre</strong>, participation au chapeau.
-                  Possibilité de boire et manger sur place.
-                </p>
-              <?php endif; ?>
-
-              <?php if ($event->facebook_url()) : ?>
-                <p>
-                  <big><a href="<?php echo h($event->facebook_url()) ?>">S'inscrire sur Facebook</a></big>
-                </p>
-              <?php endif; ?>
-
-            <?php else : ?>
-
-              <p>
-                À suivre sur
-                <a href="https://www.facebook.com/Quesapelorio/">notre page Facebook</a>.
-              </p>
-
-            <?php endif; ?>
-
           </section>
         </div>
       </div>
+    </div>
 
-      <hr>
+    <hr>
 
+    <div class="container">
       <section class="social">
         <h2 class="section-title">Aimez-nous</h2>
         <div class="cells">
@@ -151,21 +64,24 @@
           </div>
         </div>
       </section>
+    </div>
 
-      <hr>
+    <hr>
 
+    <div class="container">
       <section>
         <h2 class="section-title">Quezak-eau&nbsp;?</h2>
         <p>
           <span class="quesa">Quesapelorio</span> est une <strong>troupe d’improvisation théâtrale</strong>
-          à Paris qui fait des <strong>Cabarets d'impro</strong>
-          festifs, explosifs et survoltés
-          chaque <strong>1<sup>er</sup> dimanche</strong> du mois.
+          à Paris qui fait des <strong>matchs</strong>,
+          des <strong>cabarets d'impro</strong>,
+          et des événements autour de l'improvisation et du théâtre
+          aux quatre coins du monde.
         </p>
 
         <p>
           La légende raconte qu’il existait un homme du nom de
-          <strong>Hugo B</strong> qui, un soir de <strong>terrible orage</strong>,
+          Hugo B qui, un soir de <strong>terrible orage</strong>,
           mis au monde 5 bêtes <strong>étranges</strong> aux dialogues <strong>tordus</strong>
           et à l’esprit <strong>lointain</strong>.
         </p>
@@ -174,11 +90,12 @@
           Ces derniers, pour lui faire plaisir, montèrent une
           troupe <strong>d’improvisation théâtrale</strong>.
         </p>
-
       </section>
+    </div>
 
-      <hr>
+    <hr>
 
+    <div class="container">
       <section>
         <h2 class="section-title">Les improvisateurs</h2>
 
@@ -407,33 +324,25 @@
         <div class="face-tab-current">
         </div>
       </section>
-
-      <hr>
-
-      <section id="les-marquises" class="section">
-        <h2 class="section-title">Le lieu</h2>
-        <p class="short-text">
-          <big>Les Marquises</big><br />
-          <strong>145 Rue Oberkampf</strong>, 75011 Paris<br />
-          <abbr title="Métro" class="metro">M</abbr> Ménilmontant
-        </p>
-      </section>
     </div>
 
-    <div class="bigmap">
-      <a href="https://www.google.fr/maps/place/145+Rue+Oberkampf,+75011+Paris">
-        Carte
-      </a>
-    </div>
+    <hr>
 
     <div class="container">
       <h2 class="section-title">Du théâtre même pas chiant</h2>
-      <p>Un <strong>cabaret d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des idées de <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
+
+      <p>Le <strong>théâtre d'improvisation</strong> c'est à chaque fois drôle, étonnant, émouvant, époustouflant. Emmenez avec vous des <strong>thèmes</strong> à jouer et <strong>votre mauvaise humeur</strong>, on va s'en occuper.</p>
+
+      <p>Notre équipe de mercenaires est là pour être envoyée sur des <strong>missions de haut vol</strong> sur des matchs, des cabarats, ou <strong>tout type de concept improvisé</strong>.</p>
+
+      <p>Nous jouons principalement autour de <strong>Paris</strong> mais nous pouvons être envoyés partout dans le monde&nbsp;: nous avons déjà joué à <strong>Hong-Kong</strong>, à <strong>Singapour</strong> et même à <strong>Provins</strong>&nbsp;!</p>
 
       <img class="full-width greyscale" src="assets/img/photos/caucus.jpg" alt="" />
+    </div>
 
-      <hr>
+    <hr>
 
+    <div class="container">
       <h2 class="section-title">Nous contacter</h2>
       <p class="short-text">
         <a href="mailto:impro@quesapelorio.com">impro@quesapelorio.com</a>
