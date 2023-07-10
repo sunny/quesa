@@ -1,21 +1,24 @@
 task default: :compile
 
-desc "Compile all the things"
+desc 'Compile all the things'
 task compile: [:css, :js]
 
-desc "Compile CSS"
+desc 'Compile CSS'
 task :css do
-  sh 'compass compile --output-style compressed --force'
+  sh 'bundle exec compass compile --output-style compressed --force ' \
+     '--sass-dir assets/css ' \
+     '--css-dir assets/css ' \
+     '--images-dir assets/img'
 end
 
-desc "Compile JS"
+desc 'Compile JS'
 task :js do
-  sh 'coffee --compile assets/js'
-  # sh "r.js -o assets/js/app.build.js"
+  sh 'bundle exec coffee --compile assets/js'
 end
 
-desc "Deploy using rsync"
+desc 'Deploy using rsync'
 task deploy: :compile do
-  sh "git push"
-  sh "rsync -avz --delete --exclude=.sass-cache --exclude=.git ./ sunfox.ooklxc:quesapelorio.com/"
+  sh 'git push'
+  sh 'rsync -avz --delete --exclude=.sass-cache --exclude=.git ' \
+     './ sunfox.ooklxc:quesapelorio.com/'
 end
